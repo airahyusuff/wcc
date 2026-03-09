@@ -1,12 +1,13 @@
 [
   {
     "fullName": "Rajani Rao",
-    "position": "CTO/Principal Technologist, WInvest/AVEVA",
-    "email": "rajani.rao@womencodingcommunity.com",
+    "position": "CTO/Principal Technologist",
+    "email": "",
     "slackDisplayName": "@Rajani",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "WInvest/AVEVA",
     "memberTypes": [
@@ -19,9 +20,9 @@
         "link": "https://www.linkedin.com/in/rajaniraog"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -33,19 +34,19 @@
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -59,15 +60,15 @@
         },
         {
           "language": "C",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "JAVA",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -86,26 +87,21 @@
       "idealMentee": "Is really keen to grow",
       "additional": "Anything Software Engineering",
       "longTerm": {
-        "numMentee": 3,
-        "hours": 5
+        "numMentee": 3
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 5
-        }
-      ]
+      "adHoc": []
     },
     "city": "Cambridge"
   },
   {
     "fullName": "Eleonora Belova",
-    "position": "Test Automation Engineer, IBM Security",
-    "email": "eleonora.belova@womencodingcommunity.com",
+    "position": "Test Automation Engineer",
+    "email": "",
     "slackDisplayName": "@Eleonora",
     "country": {
       "countryCode": "NL",
-      "countryName": "Netherlands"
+      "countryName": "Netherlands",
+      "capital": "Amsterdam"
     },
     "companyName": "IBM Security",
     "memberTypes": [
@@ -126,9 +122,9 @@
         "link": "https://noraweisser.com/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -136,7 +132,7 @@
       "areas": [
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         }
       ],
       "languages": [
@@ -150,7 +146,7 @@
         },
         {
           "language": "TYPESCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -168,25 +164,21 @@
       "idealMentee": "I would love to connect with an open-minded early-career engineer, who is interested in learning new things in Software Testing, or wants to know how to navigate in career. I can also help people who are switched from different fields to Software Testing and provide guidance and resources.",
       "additional": "Test Automation, Quality Assurance, Starting career in IT, CV Review, Preparation for the Interview, Exploratory Testing, Web Testing (Manual & Automation), API Testing (Postman, SOAP UI), Python for Software Testers, Career Advice, ISTQB Foundation Certification Preparation guidelines",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Amsterdam"
   },
   {
     "fullName": "Stephanie Senoner",
-    "position": "Senior Software Engineer, Zopa",
-    "email": "stephanie.senoner@womencodingcommunity.com",
+    "position": "Senior Software Engineer",
+    "email": "",
     "slackDisplayName": "@Stephanie",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Zopa",
     "memberTypes": [
@@ -199,9 +191,9 @@
         "link": "https://www.linkedin.com/in/stephanie-senoner"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -209,7 +201,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
@@ -217,15 +209,15 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -239,7 +231,7 @@
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -258,26 +250,21 @@
       "idealMentee": "Passionate, keen to learn, early - mid stage, career switcher",
       "additional": "Interview Preparation, Resume Review, personal project, Software Engineering Principles, Management, Time management, self growth",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 2
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Ken Pemberton",
-    "position": "PEOPLE-FIRST servant-leadership of technical teams, To be determined!",
-    "email": "ken.pemberton@womencodingcommunity.com",
+    "position": "PEOPLE-FIRST servant-leadership of technical teams",
+    "email": "",
     "slackDisplayName": "@Ken",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "To be determined!",
     "memberTypes": [
@@ -294,9 +281,9 @@
         "link": "https://grumpyoldfart.org/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -322,26 +309,21 @@
       "idealMentee": "Folks who would benefit from coaching for confidence and resilience within the tech world. You are more capable than you know!",
       "additional": "Overcoming self-doubt\nDealing with change\nHow to work effectively with others\nRelating to difficult colleagues\nBuilding resilience\nInterview preparation\nCV review",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 1
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
+      "adHoc": []
     },
-    "city": "Chesham"
+    "city": "Chesham, Buckinghamshire"
   },
   {
     "fullName": "Irina Kamalova",
-    "position": "Backend Software Engineer, Revolut",
-    "email": "irina.kamalova@womencodingcommunity.com",
+    "position": "Backend Software Engineer",
+    "email": "",
     "slackDisplayName": "@Irina",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Revolut",
     "memberTypes": [
@@ -354,9 +336,9 @@
         "link": "https://www.linkedin.com/in/irina-kamalova/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -364,7 +346,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
@@ -372,11 +354,11 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -390,11 +372,11 @@
         },
         {
           "language": "SCALA",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -412,20 +394,21 @@
       "idealMentee": "A mentee who wants to grow from Mid to Senior, or want to change their job and prepare for an interview for Mid/Senior position. Based in London, working in Fin tech, Backend Engineer",
       "additional": "Software Development Strategies, Resume Review, Preparation for The Technical Interview, Pets Projects, Concurrency, Databases, System Design, Low level application design, TDD, DDD, Software Architecture, Distributive Systems, Integration with stack holders, CQRS, Deployment, Data Migration, Stability",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 0
-      }
+        "numMentee": 1
+      },
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Ana Nogal",
-    "position": "Career Coach & Mentor | Recruitment & Operations Lead, ananogal.com | Novoda",
-    "email": "ana.nogal@womencodingcommunity.com",
+    "position": "Career Coach & Mentor | Recruitment & Operations Lead",
+    "email": "",
     "slackDisplayName": "@Ana",
     "country": {
       "countryCode": "ES",
-      "countryName": "Spain"
+      "countryName": "Spain",
+      "capital": "Madrid"
     },
     "companyName": "ananogal.com | Novoda",
     "memberTypes": [
@@ -442,9 +425,9 @@
         "link": "https://www.ananogal.com/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -456,11 +439,11 @@
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -474,11 +457,11 @@
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C_SHARP",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -497,26 +480,21 @@
       "idealMentee": "Well, I like to help essentially. I have had mentees that needed more a hands on, pair-programming with them, and others that orientation was enough. I'm ok with both scenarios.",
       "additional": "TDD\nClean code\nRefactoring\nTeam dynamics\nMock interview\nPR reviews\nCode Principles",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 2
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "Barcelona"
   },
   {
     "fullName": "Bryan Boreham",
-    "position": "Distinguished Engineer, Grafana Labs",
-    "email": "bryan.boreham@womencodingcommunity.com",
+    "position": "Distinguished Engineer",
+    "email": "",
     "slackDisplayName": "@Bryan",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Grafana Labs",
     "memberTypes": [
@@ -529,9 +507,9 @@
         "link": "https://www.linkedin.com/in/bryanboreham"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -543,19 +521,19 @@
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -569,15 +547,15 @@
         },
         {
           "language": "RUST",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "GO",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -596,26 +574,21 @@
       "idealMentee": "Someone who is interested in a deep understanding of technology, and how people work with technology.",
       "additional": "System design, how to present your ideas, performance optimisation, career advancement, preparation for technical interview.",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 3
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 3
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Sonali Goel",
-    "position": "Senior Developer, Yoox-Net-A-Porter",
-    "email": "sonali.goel@womencodingcommunity.com",
+    "position": "Senior Developer",
+    "email": "",
     "slackDisplayName": "@Sonali",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Yoox-Net-A-Porter",
     "memberTypes": [
@@ -628,9 +601,9 @@
         "link": "https://www.linkedin.com/in/sonali-goel-6b611522/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -642,15 +615,15 @@
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -675,22 +648,19 @@
     "menteeSection": {
       "idealMentee": "New to tech or someone who needs some guidance about tech world or someone needs to grow",
       "additional": "Software Development Processes and Overview, Guidance on how to prepare for Interviews, BDD and TDD approach to development. AWS solution guidance/path for study or certifications.",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Adeola Adekoyejo",
-    "position": "Full stack Engineer, Nill",
-    "email": "adeola.adekoyejo@womencodingcommunity.com",
+    "position": "Full stack Engineer",
+    "email": "",
     "slackDisplayName": "@Adeola",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Nill",
     "memberTypes": [
@@ -707,9 +677,9 @@
         "link": "https://medium.com/@adekoyejoadeola"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -717,7 +687,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
@@ -725,7 +695,7 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -750,22 +720,19 @@
     "menteeSection": {
       "idealMentee": "You don’t have to know so much as long as you are willing to learn and do the work from your end",
       "additional": "Frontend interview prep, technical writing, system design, web accessibility, testing",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 3
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Sakirat Kehinde Usman",
-    "position": "Frontend Development Trainer, Niyo Group Ltd",
-    "email": "sakirat.kehinde.usman@womencodingcommunity.com",
+    "position": "Frontend Development Trainer",
+    "email": "",
     "slackDisplayName": "@Sakirat",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Niyo Group Ltd",
     "memberTypes": [
@@ -786,9 +753,9 @@
         "link": "https://gitshowcase.com/oyinkan"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -796,7 +763,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -804,11 +771,11 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -834,20 +801,21 @@
       "idealMentee": "I am looking for a mentee who is enthusiastic and curious in learning new things.",
       "additional": "HTML, CSS, JavaScript, React, Redux, Resume Review, Thinking in React, Interview Preparation",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 0
-      }
+        "numMentee": 2
+      },
+      "adHoc": []
     },
     "city": "Manchester"
   },
   {
     "fullName": "Nonna Shakhova",
-    "position": "Senior Analytics Engineer, Trusted Housesitters",
-    "email": "nonna.shakhova@womencodingcommunity.com",
+    "position": "Senior Analytics Engineer",
+    "email": "",
     "slackDisplayName": "@Nonna",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Trusted Housesitters",
     "memberTypes": [
@@ -860,9 +828,9 @@
         "link": "https://www.linkedin.com/in/nonna-shakhova/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -874,19 +842,19 @@
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -912,26 +880,21 @@
       "idealMentee": "I’m looking for someone committed to growth: curious, proactive, and open to feedback. You don’t need to be highly experienced, but you should be ready to take ownership of your development and apply what we discuss between sessions.\nI especially enjoy working with women in tech stepping into senior confidence, engineers transitioning into Data/Analytics roles, and professionals preparing for technical interviews.\nIf you’re ambitious, reflective, and ready to grow both technically and professionally, we’ll work well together.",
       "additional": "- Data Engineering & Analytics Engineering career growth\n- Scalable data modelling\n- Data quality & testing\n- CV & LinkedIn review for Data roles\n- Technical interview preparation (SQL, modelling, architecture)\n- Positioning for Senior roles\n- Navigating difficult stakeholders and building influence\n- Growing confidence in tech environments\n- Avoiding burnout during interview cycles",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Ying Liu",
-    "position": "Head of AI, R&D, TG0",
-    "email": "ying.liu@womencodingcommunity.com",
+    "position": "Head of AI",
+    "email": "",
     "slackDisplayName": "@Ying",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "TG0",
     "memberTypes": [
@@ -944,9 +907,9 @@
         "link": "https://www.linkedin.com/in/yingliu-data/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -954,7 +917,7 @@
       "areas": [
         {
           "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -962,7 +925,7 @@
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -984,25 +947,21 @@
       "idealMentee": "Motivated individuals who are eager to learn the algorithms of Machine Learning",
       "additional": "Software Development, Machine Learning Algorithm, Resume Review, Preparation for The Technical Interview.",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 1
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Adriana Zencke Zimmermann",
-    "position": "Tech Lead, Centric Software",
-    "email": "adriana.zencke.zimmermann@womencodingcommunity.com",
+    "position": "Tech Lead",
+    "email": "",
     "slackDisplayName": "@Adriana",
     "country": {
       "countryCode": "ES",
-      "countryName": "Spain"
+      "countryName": "Spain",
+      "capital": "Madrid"
     },
     "companyName": "Centric Software",
     "memberTypes": [
@@ -1023,9 +982,9 @@
         "link": "https://github.com/dricazenck"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1037,19 +996,19 @@
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1063,11 +1022,11 @@
         },
         {
           "language": "KOTLIN",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -1084,25 +1043,21 @@
       "idealMentee": "Someone willing to learn new technologies or to improve current skills, looking for guidance on how to navigate the initial years in the industry or in a new company. Also someone able to invest time in learning.",
       "additional": "Java, Spring Boot and Best Practices",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 1
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Valencia"
   },
   {
     "fullName": "Fernanda Martins",
-    "position": "DevOps Engineer, Clay Solutions",
-    "email": "fernanda.martins@womencodingcommunity.com",
+    "position": "DevOps Engineer",
+    "email": "",
     "slackDisplayName": "@Fernanda",
     "country": {
       "countryCode": "NL",
-      "countryName": "Netherlands"
+      "countryName": "Netherlands",
+      "capital": "Amsterdam"
     },
     "companyName": "Clay Solutions",
     "memberTypes": [
@@ -1115,9 +1070,9 @@
         "link": "https://www.linkedin.com/in/flmmartins/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1129,7 +1084,7 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [],
@@ -1144,25 +1099,21 @@
       "idealMentee": "Dedicated, curious and thirsty for knowledge",
       "additional": "DevOps practices, how to start in infrastructure, resume review, learn cloud, infrastructure as code, incident management, improve your pipeline, manage platform priorities, how to better support developers",
       "longTerm": {
-        "numMentee": 4,
-        "hours": 4
+        "numMentee": 4
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Amsterdam"
   },
   {
     "fullName": "Gabriel Oliveira",
-    "position": "QA Engineer, Picnic",
-    "email": "gabriel.oliveira@womencodingcommunity.com",
+    "position": "QA Engineer",
+    "email": "",
     "slackDisplayName": "@Gabriel",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Picnic",
     "memberTypes": [
@@ -1175,9 +1126,9 @@
         "link": "https://www.linkedin.com/in/gpaoliveira"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1189,19 +1140,19 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1215,7 +1166,7 @@
         },
         {
           "language": "JAVA",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -1235,25 +1186,21 @@
       "idealMentee": "QAs willing to grow on their career",
       "additional": "QA Engineering, Agile Testing, Software Test Automation",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 4
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Amsterdam"
   },
   {
     "fullName": "Samuela Smolorz",
-    "position": "Software Engineer, Garrison Technology Ltd",
-    "email": "samuela.smolorz@womencodingcommunity.com",
+    "position": "Software Engineer",
+    "email": "",
     "slackDisplayName": "@Samuela",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Garrison Technology Ltd",
     "memberTypes": [
@@ -1266,9 +1213,9 @@
         "link": "https://www.linkedin.com/in/samuela-smolorz-mbcs-6821a3161/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1276,11 +1223,11 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
@@ -1288,11 +1235,11 @@
         },
         {
           "technicalArea": "SECURITY",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1306,7 +1253,7 @@
         },
         {
           "language": "GO",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -1324,25 +1271,21 @@
       "idealMentee": "Career switchers or junior engineers who would like to grow, adapt and reflect",
       "additional": "- Cloud infrastructure engineering\n- Databases and SQL\n- Technical writing\n- Cybersecurity\n- Working in data vs software teams\n- Working in start-ups vs mid-sized vs big companies\n- Interview preparation\n- Personal project/resume review",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Arzu Caner",
-    "position": "Fullstack Developer, InnoAl Tech Solution",
-    "email": "arzu.caner@womencodingcommunity.com",
+    "position": "Fullstack Developer",
+    "email": "",
     "slackDisplayName": "@Arzu",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "InnoAl Tech Solution",
     "memberTypes": [
@@ -1367,9 +1310,9 @@
         "link": "https://www.youtube.com/channel/UCsK0v6RouRYb5I1Ny8flrOg"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1377,7 +1320,7 @@
       "areas": [
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         }
       ],
       "languages": [
@@ -1398,22 +1341,19 @@
     "menteeSection": {
       "idealMentee": "Those who are changing their careers, interested in app development.",
       "additional": "Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Prabha Venkatesh",
-    "position": "Data scientist, Milbotix",
-    "email": "prabha.venkatesh@womencodingcommunity.com",
+    "position": "Data scientist",
+    "email": "",
     "slackDisplayName": "@Prabha",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Milbotix",
     "memberTypes": [
@@ -1426,9 +1366,9 @@
         "link": "https://www.linkedin.com/in/prabha-venkatesh-t"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1436,7 +1376,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
@@ -1444,15 +1384,15 @@
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1466,11 +1406,11 @@
         },
         {
           "language": "C_SHARP",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C_SHARP",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -1487,26 +1427,21 @@
       "idealMentee": "Individuals in early careers who are looking for help in coding and career guidance; but happy to help anyone I can",
       "additional": "AI/ ML concepts, Resume review, technical interview",
       "longTerm": {
-        "numMentee": 3,
-        "hours": 2
+        "numMentee": 3
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "Bristol"
   },
   {
     "fullName": "Ima-Abasi Effiong",
-    "position": "QA Engineer, Cloudenly",
-    "email": "ima-abasi.effiong@womencodingcommunity.com",
+    "position": "QA Engineer",
+    "email": "",
     "slackDisplayName": "@Ima-Abasi",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "capital": "Abuja"
     },
     "companyName": "Cloudenly",
     "memberTypes": [
@@ -1519,9 +1454,9 @@
         "link": "https://www.linkedin.com/in/imaabasieffiong/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1529,11 +1464,11 @@
       "areas": [
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [
@@ -1554,22 +1489,19 @@
     "menteeSection": {
       "idealMentee": "I can provide guidance and resources to a passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.",
       "additional": "Quality Assurance, Switch career to IT, Product Management, Grow from beginner to mid level.",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Abuja"
   },
   {
     "fullName": "Lidiane Mayra Taquehara",
-    "position": "Senior Software Engineer, Artsy",
-    "email": "lidiane.mayra.taquehara@womencodingcommunity.com",
+    "position": "Senior Software Engineer",
+    "email": "",
     "slackDisplayName": "@Lidiane",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Artsy",
     "memberTypes": [
@@ -1582,9 +1514,9 @@
         "link": "https://www.linkedin.com/in/lmayra/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1596,19 +1528,19 @@
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1622,11 +1554,11 @@
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "JAVA",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -1643,22 +1575,19 @@
     "menteeSection": {
       "idealMentee": "A mentee with a curious mind and passionate about learning new things.",
       "additional": "Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Sergei Begishev",
-    "position": "Chief Product Officer, Overgear",
-    "email": "sergei.begishev@womencodingcommunity.com",
+    "position": "Chief Product Officer",
+    "email": "",
     "slackDisplayName": "@Sergei",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "RS",
+      "countryName": "Serbia",
+      "capital": "Belgrade"
     },
     "companyName": "Overgear",
     "memberTypes": [
@@ -1671,9 +1600,9 @@
         "link": "https://www.linkedin.com/in/sergey-begishev/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1681,7 +1610,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -1689,15 +1618,15 @@
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [],
@@ -1718,26 +1647,21 @@
       "idealMentee": "I am seeking motivated engineers who want to elevate their careers by developing their ability to communicate technical work in business terms, enhance their leadership capabilities, and master data-driven decision making",
       "additional": "Mentoring Topics: Product Architecture & Design, Business Data Analysis & Visualization, Team Management & Leadership Skills, Technical Project Presentation, Process Automation Strategy, Cross-functional Communication",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "Belgrade"
   },
   {
     "fullName": "Nadezhda Iaromirova",
-    "position": "Sr. IT Project Manager, Aceonis",
-    "email": "nadezhda.iaromirova@womencodingcommunity.com",
+    "position": "Sr. IT Project Manager",
+    "email": "",
     "slackDisplayName": "@Nadezhda",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "BG",
+      "countryName": "Bulgaria",
+      "capital": "Sofia"
     },
     "companyName": "Aceonis",
     "memberTypes": [
@@ -1754,9 +1678,9 @@
         "link": "https://hackernoon.com/u/uxdilettante"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1768,7 +1692,7 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [],
@@ -1786,20 +1710,21 @@
       "idealMentee": "I'm looking for entry-level or mid-level professionals who are eager to advance their careers in IT project management, product ownership, business analysis, or UX. If you're passionate about growing your skills, open to constructive feedback, and ready to take the next step in your career, I'd love to provide personalized mentorship and career advice.",
       "additional": "I can advice on a career as a project manager, product owner, or business analyst. I also specialize in user experience (UX) optimization, A/B testing, digital analytics, and reporting and can consult on UX and UI topics. Also, I can offer guidance on Agile methodologies widely used in IT, insights into valuable skill development. I can help review your CV and offer sessions to prepare you for real job interviews.",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 0
-      }
+        "numMentee": 2
+      },
+      "adHoc": []
     },
-    "city": "Bulgaria"
+    "city": "Sofia"
   },
   {
     "fullName": "Kateryna Ogar",
-    "position": "Product Manager, Cisco Systems",
-    "email": "kateryna.ogar@womencodingcommunity.com",
+    "position": "Product Manager",
+    "email": "",
     "slackDisplayName": "@Kateryna",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Cisco Systems",
     "memberTypes": [
@@ -1816,9 +1741,9 @@
         "link": "https://adplist.org/mentors/kateryna-ogar"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1826,7 +1751,7 @@
       "areas": [
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -1850,19 +1775,21 @@
       "idealMentee": "A person who would like to switch the career or to get a new job as Product Manager or Scrum Master.",
       "additional": "Agile Project Management, Scrum Mastering, Resume Review, Preparation for the Interview.",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 0
-      }
-    }
+        "numMentee": 1
+      },
+      "adHoc": []
+    },
+    "city": "Newcastle upon Tyne"
   },
   {
     "fullName": "Wilson Adenuga",
-    "position": "Senior Frontend Engineer, BeyondIT SRL",
-    "email": "wilson.adenuga@womencodingcommunity.com",
+    "position": "Senior Frontend Engineer",
+    "email": "",
     "slackDisplayName": "@Wilson",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "BeyondIT SRL",
     "memberTypes": [
@@ -1879,9 +1806,9 @@
         "link": "https://github.com/oluwatunmiisheii"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1889,7 +1816,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
@@ -1897,7 +1824,7 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -1924,25 +1851,21 @@
       "idealMentee": "I'm looking for mentees who are passionate, eager to learn, and committed to upskilling. I can provide mentorship in backend and frontend engineering, test-driven development (TDD), database design, microservices, system design, and emerging topics in software engineering.",
       "additional": "Full-Stack JavaScript Development (React.js, Next.js, Node.js)\nMobile App Development with React Native\nTest-Driven Development Methodologies\nTechnical Interview Preparation\nWeb Accessibility Best Practices\nPython Programming Fundamentals",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 3
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 3
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Birmingham"
   },
   {
     "fullName": "Sebastian Castro",
-    "position": "Robotics Software Engineer, Robotics and AI Institute",
-    "email": "sebastian.castro@womencodingcommunity.com",
+    "position": "Robotics Software Engineer",
+    "email": "",
     "slackDisplayName": "@Sebastian",
     "country": {
       "countryCode": "US",
-      "countryName": "United States"
+      "countryName": "United States",
+      "capital": "Washington DC"
     },
     "companyName": "Robotics and AI Institute",
     "memberTypes": [
@@ -1959,9 +1882,9 @@
         "link": "https://bsky.app/profile/roboticseabass.com"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -1973,19 +1896,19 @@
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -1999,15 +1922,15 @@
         },
         {
           "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "RUST",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -2027,20 +1950,21 @@
       "idealMentee": "I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!",
       "additional": "Robotics, Software Engineering, Machine Learning, Simulation, Education",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 0
-      }
+        "numMentee": 2
+      },
+      "adHoc": []
     },
-    "city": "Boston"
+    "city": "Boston, MA"
   },
   {
     "fullName": "Ramona Gawarwala",
-    "position": "Full Stack Software Engineer, Capgemini",
-    "email": "ramona.gawarwala@womencodingcommunity.com",
+    "position": "Full Stack Software Engineer",
+    "email": "",
     "slackDisplayName": "@Ramona",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Capgemini",
     "memberTypes": [
@@ -2053,9 +1977,9 @@
         "link": "https://www.linkedin.com/in/ramona-gawarwala/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2063,7 +1987,7 @@
       "areas": [
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -2071,15 +1995,15 @@
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2108,25 +2032,21 @@
       "idealMentee": "I’m looking for mentees who are intentional about growing. You don’t need to have everything figured out, but you do need to be willing to reflect, ask questions, and take ownership of your progress.\nI work best with people who are open to honest feedback, ready to step slightly outside their comfort zone, and committed to building strong foundations, not just chasing quick wins.",
       "additional": "I can support mentees who are:\n- Transitioning into tech\n- Early to mid-level developers looking to grow\n- Navigating confidence, impostor syndrome, or career direction\n- Wanting to raise their engineering standards and ownership\n- Preparing for interviews or thinking about next steps\nTechnically, I can help with:\n- Frontend development and growing into full-stack\n- Clean code, modular design, and OOP principles\n- Career progression planning\n- Building confidence in technical discussions\n- Thinking critically about AI systems and emerging tech",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 1
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Sonika Janagill",
-    "position": "Engineering Advocate, VML",
-    "email": "sonika.janagill@womencodingcommunity.com",
+    "position": "Engineering Advocate",
+    "email": "",
     "slackDisplayName": "@Sonika",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "VML",
     "memberTypes": [
@@ -2139,9 +2059,9 @@
         "link": "https://www.linkedin.com/in/sonikaj/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2153,19 +2073,19 @@
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "ENGINEERING_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2179,7 +2099,7 @@
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -2199,25 +2119,21 @@
       "idealMentee": "I'm seeking curious, proactive individuals interested in AI, data engineering, or modern software development. Whether you're transitioning from traditional development to AI/ML, looking to enhance your cloud architecture skills, or aiming to grow as a technical leader, I'd be delighted to support you. I particularly welcome those with clear goals, a commitment to consistent learning. I especially encourage women and underrepresented groups in tech who are navigating technical career paths.",
       "additional": "Cloud Architecture & Data Engineering\nCI/CD using Infra As Code\nAI Engineering & Implementation Strategies\nTransitioning from Traditional Development to AI/ML\nEnterprise E-commerce Solutions\nTechnical Career Path Evolution & Growth\nBalancing Technical Depth & Business Awareness\nBuilding Technical Advocacy Skills\nWork-Life Balance in Technical Careers",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 2
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Watford"
   },
   {
     "fullName": "Prerna Singhal",
-    "position": "Senior Software Engineer 2, Hubspot",
-    "email": "prerna.singhal@womencodingcommunity.com",
+    "position": "Senior Software Engineer 2",
+    "email": "",
     "slackDisplayName": "@Prerna",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Hubspot",
     "memberTypes": [
@@ -2230,9 +2146,9 @@
         "link": "https://www.linkedin.com/in/prernasinghal90/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2244,19 +2160,19 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2270,15 +2186,15 @@
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "KOTLIN",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -2297,26 +2213,21 @@
       "idealMentee": "One who wants to transition from junior to senior levels.",
       "additional": "Software Development Strategies, Resume Review, Preparation for The Technical Interview, How to grow from junior to lead engineers, Project management",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "ilayda yilmaz",
-    "position": "Data Scientist, GDZ",
-    "email": "ilayda.yilmaz@womencodingcommunity.com",
+    "position": "Data Scientist",
+    "email": "",
     "slackDisplayName": "@ilayda",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "TR",
+      "countryName": "Turkey",
+      "capital": "Ankara"
     },
     "companyName": "GDZ",
     "memberTypes": [
@@ -2329,9 +2240,9 @@
         "link": "https://www.linkedin.com/in/ilayda-yilmaz/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2339,7 +2250,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
@@ -2347,15 +2258,15 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2384,22 +2295,19 @@
     "menteeSection": {
       "idealMentee": "I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow. I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.",
       "additional": "What to focus on when transitioning into data science\nBuilding a roadmap for becoming a Data Scientist\nTechnical interview preparation for data roles\nResume and LinkedIn review for aspiring data professionals\nWorking on portfolio projects and showcasing them effectively\nCommunicating data insights clearly to different audiences",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Ankara"
   },
   {
     "fullName": "Damola Taiwo",
-    "position": "Frontend Engineer, Just Eat Takeaway",
-    "email": "damola.taiwo@womencodingcommunity.com",
+    "position": "Frontend Engineer",
+    "email": "",
     "slackDisplayName": "@Damola",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Just Eat Takeaway",
     "memberTypes": [
@@ -2412,9 +2320,9 @@
         "link": "https://www.linkedin.com/in/badmus-damola-taiwo-643438158/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2422,7 +2330,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FRONTEND",
@@ -2430,15 +2338,15 @@
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2452,15 +2360,15 @@
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -2478,23 +2386,19 @@
     "menteeSection": {
       "idealMentee": "I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers",
       "additional": "Frontend system design interview preparation and strategies\n\nPreparing for technical interviews (Frontend focus)\n\nResume review and feedback\n\nTransitioning into a frontend development career",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 3
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Dan Antonela",
-    "position": "Data Architect, Accenture",
-    "email": "dan.antonela@womencodingcommunity.com",
+    "position": "Data Architect",
+    "email": "",
     "slackDisplayName": "@Dan",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "RO",
+      "countryName": "Romania",
+      "capital": "Bucharest"
     },
     "companyName": "Accenture",
     "memberTypes": [
@@ -2507,9 +2411,9 @@
         "link": "https://www.linkedin.com/in/morar-antonela"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2521,19 +2425,19 @@
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2547,15 +2451,15 @@
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -2575,26 +2479,21 @@
       "idealMentee": "I’m looking to mentor individuals who are eager to grow their careers in the data field, open to feedback, and committed to putting learning into action. I value mentees with a curious mindset, a strong willingness to learn, and the motivation to explore new challenges. A growth mindset, reliability, and a proactive attitude are essential—I’ll provide guidance and support, but real progress comes from those who take initiative, follow through, and are ready to push themselves.",
       "additional": "Data engineering best practices, \nData architecture design and implementation, \nTransitioning from on-premises to cloud solutions (with focus on Databricks), \nGrowing from junior to mid-level, \nGrowing from mid-level to senior-level, \nCareer development and strategic planning in data roles, \nOther potential mentoring topics:\nTechnology architecture & strategy, \nCareer growth & soft skills, \nNavigating the job market and building a professional brand, \nEffective communication in technical teams",
       "longTerm": {
-        "numMentee": 3,
-        "hours": 1
+        "numMentee": 3
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
+      "adHoc": []
     },
     "city": "Cluj-Napoca"
   },
   {
     "fullName": "Mudit Maheshwari",
-    "position": "Quality Automation Specialist, NatWest Group",
-    "email": "mudit.maheshwari@womencodingcommunity.com",
+    "position": "Quality Automation Specialist",
+    "email": "",
     "slackDisplayName": "@Mudit",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "NatWest Group",
     "memberTypes": [
@@ -2611,9 +2510,9 @@
         "link": "https://medium.com/@mudit94"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2621,7 +2520,7 @@
       "areas": [
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "DEVOPS",
@@ -2629,15 +2528,15 @@
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -2651,11 +2550,11 @@
         },
         {
           "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -2674,26 +2573,21 @@
       "idealMentee": "Passionate , Patient , Hunger to learn",
       "additional": "Resume Review , Latest testing tools, Top trending tech",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Tuğçe Kızılçakar",
-    "position": "Technical Product Manager, -",
-    "email": "tugce.kızılcakar@womencodingcommunity.com",
+    "position": "Technical Product Manager",
+    "email": "",
     "slackDisplayName": "@Tuğçe",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "-",
     "memberTypes": [
@@ -2706,9 +2600,9 @@
         "link": "https://www.linkedin.com/in/tu%C4%9F%C3%A7e-k%C4%B1z%C4%B1l%C3%A7akar-535a1a4b/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2720,19 +2614,19 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [],
@@ -2753,25 +2647,21 @@
       "idealMentee": "I’m looking for mentees who are passionate about growing in tech or product management — whether they’re just starting out or already have some experience. I enjoy supporting women who are curious, open to learning, and ready to take the next step in their careers. My goal is to help them gain confidence, structure their growth, and feel empowered in the tech world.",
       "additional": "Agile & Scrum fundamentals for product and engineering teams\n\nMobile app product lifecycle and MVP planning\n\nCommunication and collaboration with technical teams",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 4
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Istanbul"
   },
   {
     "fullName": "Marjorie Martinez",
-    "position": "Software Developer, Major Digital",
-    "email": "marjorie.martinez@womencodingcommunity.com",
+    "position": "Software Developer",
+    "email": "",
     "slackDisplayName": "@Marjorie",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Major Digital",
     "memberTypes": [
@@ -2784,9 +2674,9 @@
         "link": "https://www.linkedin.com/in/marjorie-martinez/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2794,7 +2684,7 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
@@ -2820,23 +2710,19 @@
     "menteeSection": {
       "idealMentee": "Somewhere beginner level or mid level that's looking for career guide",
       "additional": "Software Development Strategies, Resume Review, Career Transition, Career Path Guide",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 5
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Faith Sodipe",
-    "position": "Software Engineer, AMScreen",
-    "email": "faith.sodipe@womencodingcommunity.com",
+    "position": "Software Engineer",
+    "email": "",
     "slackDisplayName": "@Faith",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "AMScreen",
     "memberTypes": [
@@ -2853,9 +2739,9 @@
         "link": "https://medium.com/@faithsodipe"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2863,7 +2749,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
@@ -2871,7 +2757,7 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -2894,25 +2780,21 @@
       "idealMentee": "I am looking for mentees who are curious, open to learning, and willing to show up consistently, regardless of their current skill level. You don’t need to have everything figured out, what matters most is a genuine interest in growing, asking questions, and reflecting on feedback. I particularly enjoy working with early-career developers and career switchers who may be navigating confidence gaps or uncertainty and who want guidance on building strong foundations in both technical skills and professional growth. I value honesty, communication, and a collaborative mindset, and I aim to create a supportive, judgment-free space where mentees feel comfortable making mistakes and learning from them. If you’re motivated to learn, willing to put in the effort, and open to exploring your potential in tech, we’ll work well together.",
       "additional": "System Design Fundamentals, Preparation for Technical Interviews, Soft Skills Beyond Technical Ability, Resume Review, Software Development Lifecyle, Agile Methodologies, Cybersecurity Essentials, Lessons Learned in Building systems at scale, System Optimization Strategies, Growing as an Engineer, AI, General Career advice",
       "longTerm": {
-        "numMentee": 5,
-        "hours": 5
+        "numMentee": 5
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 5
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Manchester"
   },
   {
     "fullName": "Anastasiia Roldugina",
-    "position": "Full Stack Engineer, Count Ltd. (Record OS)",
-    "email": "anastasiia.roldugina@womencodingcommunity.com",
+    "position": "Full Stack Engineer",
+    "email": "",
     "slackDisplayName": "@Anastasiia",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Count Ltd. (Record OS)",
     "memberTypes": [
@@ -2925,9 +2807,9 @@
         "link": "https://www.linkedin.com/in/anaroldugina/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -2935,7 +2817,7 @@
       "areas": [
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         }
       ],
       "languages": [
@@ -2949,7 +2831,7 @@
         },
         {
           "language": "C_SHARP",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -2968,26 +2850,21 @@
       "idealMentee": "Excited to work with motivated, curious mentees who are serious about growing in tech and open to feedback. You don’t need to have everything figured out, just a willingness to learn and try new approaches.\nI especially enjoy supporting people who are:\n• Early to mid-career engineers looking to build confidence and real-world skills\n• Transitioning into software development from another field\n• Preparing for technical interviews or their first (or next) engineering role\n• Working in startups or small teams and wanting to level up their technical and product thinking\nIf you’re proactive, ask questions, and are ready to put ideas into practice between sessions, we’ll work great together.",
       "additional": "Working in startups: ownership, prioritisation, shipping with limited resources, Turning product requirements into technical solutions, Third-party integrations (email systems, e-signatures, external APIs), Technical interview preparation (frontend, full-stack, take-home tasks, pair programming), CV / resume review for software engineers",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 4
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Srinivasulu Paranduru",
-    "position": "AWS Solution & Senior Devops, Tata Consultancy Services",
-    "email": "srinivasulu.paranduru@womencodingcommunity.com",
+    "position": "AWS Solution & Senior Devops",
+    "email": "",
     "slackDisplayName": "@Srinivasulu",
     "country": {
       "countryCode": "IE",
-      "countryName": "Ireland"
+      "countryName": "Ireland",
+      "capital": "Dublin"
     },
     "companyName": "Tata Consultancy Services",
     "memberTypes": [
@@ -3008,9 +2885,9 @@
         "link": "https://github.com/srinivasuluparanduru"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3022,19 +2899,19 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -3048,15 +2925,15 @@
         },
         {
           "language": "GO",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "language": "C",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -3077,26 +2954,21 @@
       "idealMentee": "Need Mentee who are focused and willing to learn and scale up their skills",
       "additional": "Software Development (Python,C#,Cloud Skills), Preparation for Interviews",
       "longTerm": {
-        "numMentee": 6,
-        "hours": 3
+        "numMentee": 6
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 3
-        }
-      ]
+      "adHoc": []
     },
     "city": "Letterkenny"
   },
   {
     "fullName": "Aria Wright",
-    "position": "Build Engineer, RAI Institute",
-    "email": "aria.wright@womencodingcommunity.com",
+    "position": "Build Engineer",
+    "email": "",
     "slackDisplayName": "@Aria",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "RAI Institute",
     "memberTypes": [
@@ -3109,9 +2981,9 @@
         "link": "https://www.linkedin.com/in/aria-andromeda"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3119,11 +2991,11 @@
       "areas": [
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
@@ -3131,11 +3003,11 @@
         },
         {
           "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -3149,11 +3021,11 @@
         },
         {
           "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "C",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -3168,25 +3040,21 @@
       "idealMentee": "Someone who has had a similarly eclectic career path or who is looking to grow from junior/mid-level to senior engineer",
       "additional": "robotics, software engineering, finding the right kind of software job, resume review/technical interviews, queerness in tech, etc",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 2
+        "numMentee": 1
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Boston"
   },
   {
     "fullName": "Airah Yusuff",
-    "position": "Cloud Engineer, Trainline",
-    "email": "airah.yusuff@womencodingcommunity.com",
+    "position": "Cloud Engineer",
+    "email": "",
     "slackDisplayName": "@Airah",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Trainline",
     "memberTypes": [
@@ -3207,9 +3075,9 @@
         "link": "https://khairahscorner.hashnode.dev"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3217,7 +3085,7 @@
       "areas": [
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "BACKEND",
@@ -3225,11 +3093,11 @@
         },
         {
           "technicalArea": "SECURITY",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [],
@@ -3246,23 +3114,19 @@
     "menteeSection": {
       "idealMentee": "I'm looking to work with mentees who want to:\n1) transition into cloud roles, \n2) strengthen their knowledge of cloud and AWS fundamentals, \n3) join the AWS Community Builders program and get support with their applications, \n4) know more about the UK Global Talent visa and whether it might be a right fit for them.\nI’m still growing as a mentor myself, but I’m committed to doing my best to support mentees and share what I’ve learned along the way.",
       "additional": "AWS Fundamentals, \nTransitioning into Cloud/DevOps Roles, \nAWS Community Builders Program, \nCV Reviews for Junior cloud roles, \nUK Global Talent Visa discussions",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
+      "adHoc": []
     },
     "city": "London"
   },
   {
     "fullName": "Michelle Victora",
-    "position": "Software Engineer, RAI Institute",
-    "email": "michelle.victora@womencodingcommunity.com",
+    "position": "Software Engineer",
+    "email": "",
     "slackDisplayName": "@Michelle",
     "country": {
       "countryCode": "US",
-      "countryName": "United States"
+      "countryName": "United States",
+      "capital": "Washington DC"
     },
     "companyName": "RAI Institute",
     "memberTypes": [
@@ -3283,9 +3147,9 @@
         "link": "https://www.facebook.com/mvictora"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3293,7 +3157,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
@@ -3301,11 +3165,11 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -3325,23 +3189,19 @@
     "menteeSection": {
       "idealMentee": "I'm looking for a mentee who's interested in growing into new areas (research -> engineering or back, physics -> robotics, or anything related), or just growing from a beginner to a mid-career engineer.",
       "additional": "Career Transitions & Growth:\n\n*Navigating career pivots (quantum physics → robotics, research → production)\n*Growing from junior to mid-level engineer\n*Dealing with imposter syndrome when changing domains\n*Deciding between startup vs research lab\n\nTechnical Interview Preparation:\n\n*Coding interview strategies and practice (algorithms, data structures)\n*System design discussions (component-level architecture)\n*Behavioral interviews \n*Talking about your work effectively in interviews\n\nSoftware Development:\n\n*Writing production-quality code (vs research code)\n*Working with hardware-software integration\n\nRobotics-Specific:\n\n*ROS 2 development and best practices\n*Writing executors and motion planning algorithms\n*Working with research teams as an engineer",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 1
-        }
-      ]
+      "adHoc": []
     },
-    "city": "Cambridge"
+    "city": "Cambridge, Massachusetts"
   },
   {
     "fullName": "Hersi Kopani",
-    "position": "Senior Software Engineer/Cloud Developer, Freelancing",
-    "email": "hersi.kopani@womencodingcommunity.com",
+    "position": "Senior Software Engineer/Cloud Developer",
+    "email": "",
     "slackDisplayName": "@Hersi",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "AL",
+      "countryName": "Albania",
+      "capital": "Tirana"
     },
     "companyName": "Freelancing",
     "memberTypes": [
@@ -3354,9 +3214,9 @@
         "link": "https://www.linkedin.com/in/hersi-kopani/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3364,7 +3224,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
@@ -3372,15 +3232,15 @@
         },
         {
           "technicalArea": "DEVOPS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -3394,11 +3254,11 @@
         },
         {
           "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "language": "GO",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
@@ -3418,19 +3278,21 @@
       "idealMentee": "I am particularly committed to mentoring in backend development and distributed systems, with a strong focus on supporting engineers as they progress from mid-level to senior-level roles. My approach emphasizes deepening technical expertise, strengthening architectural thinking, and building the strategic skills needed for impactful and responsible professional advancement.",
       "additional": "I can mentor on backend software development with Java and Spring Boot, including microservices architecture, clean code practices, and building scalable systems. I also offer guidance on cloud fundamentals and AWS certification preparation, as well as deploying applications using modern DevOps practices. Additionally, I can support mentees with resume and LinkedIn reviews and technical interview preparation.",
       "longTerm": {
-        "numMentee": 3,
-        "hours": 0
-      }
-    }
+        "numMentee": 3
+      },
+      "adHoc": []
+    },
+    "city": "Tirana"
   },
   {
     "fullName": "Nataliia Zablotska",
-    "position": "Software engineer, Bauer Media Outdoor UK",
-    "email": "nataliia.zablotska@womencodingcommunity.com",
+    "position": "Software engineer",
+    "email": "",
     "slackDisplayName": "@Nataliia",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "Bauer Media Outdoor UK",
     "memberTypes": [
@@ -3443,9 +3305,9 @@
         "link": "https://www.linkedin.com/in/nataliia-zablotska"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3453,11 +3315,11 @@
       "areas": [
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
@@ -3483,19 +3345,21 @@
       "idealMentee": "I'm looking for career switchers who are ready to put in the work. You're self-motivated and disciplined, but could use some structure, guidance, and support to land that first role in tech. If you're serious about making the switch and just need someone in your corner to help you get there, we'll be a great fit.",
       "additional": "Resume Review, Preparation for the Technical Interview, Finding opportunities to apply, Pair Programming",
       "longTerm": {
-        "numMentee": 1,
-        "hours": 2
-      }
-    }
+        "numMentee": 1
+      },
+      "adHoc": []
+    },
+    "city": "London"
   },
   {
     "fullName": "Laura Cabantous-Taylor",
-    "position": "Software Engineer, BBC",
-    "email": "laura.cabantous-taylor@womencodingcommunity.com",
+    "position": "Software Engineer",
+    "email": "",
     "slackDisplayName": "@Laura",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryName": "United Kingdom",
+      "capital": "London"
     },
     "companyName": "BBC",
     "memberTypes": [
@@ -3508,9 +3372,9 @@
         "link": "https://www.linkedin.com/in/lauracabantoustaylor/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3518,7 +3382,7 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "DEVOPS",
@@ -3526,15 +3390,15 @@
         },
         {
           "technicalArea": "DISTRIBUTED_SYSTEMS",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         },
         {
           "technicalArea": "QUALITY_ASSURANCE",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "BEGINNER"
         }
       ],
       "languages": [
@@ -3548,7 +3412,7 @@
         },
         {
           "language": "SCALA",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -3565,26 +3429,21 @@
       "idealMentee": "I'm particularly keen to support career switchers and early-career engineers, especially those transitioning into backend roles. I enjoy working with mentees who are motivated to grow their technical confidence, prepare for interviews, and navigate their first years in the industry.",
       "additional": "- Resume review\n- Interview preparation (technical, system design, behavioural)\n- Career switching into Tech\n- Backend engineering fundamentals\n- AWS fundamentals\n- Working with event-driven architectures\n- Navigating your first role in Tech\n- Practical use of AI/LLMs for productivity\n- Imposter syndrome & confidence building in Tech\n- Soft skills for software engineers\n- Career growth from Junior to Mid-level",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 4
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
+      "adHoc": []
     },
     "city": "Stockbridge"
   },
   {
     "fullName": "Wil Thomason",
-    "position": "Robotics Research Scientist, Robotics and AI Institute",
-    "email": "wil.thomason@womencodingcommunity.com",
+    "position": "Robotics Research Scientist",
+    "email": "",
     "slackDisplayName": "@Wil",
     "country": {
       "countryCode": "US",
-      "countryName": "United States"
+      "countryName": "United States",
+      "capital": "Washington DC"
     },
     "companyName": "Robotics and AI Institute",
     "memberTypes": [
@@ -3601,9 +3460,9 @@
         "link": "https://wbthomason.com/"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3615,7 +3474,7 @@
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [
@@ -3629,7 +3488,7 @@
         },
         {
           "language": "RUST",
-          "proficiencyLevel": "ADVANCED"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "mentorshipFocus": [
@@ -3648,26 +3507,21 @@
       "idealMentee": "People with questions about academic vs. industry research, or interest in becoming/growing as roboticists.",
       "additional": "Software development, resume review, interview prep, robotics, machine learning",
       "longTerm": {
-        "numMentee": 2,
-        "hours": 2
+        "numMentee": 2
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 2
-        }
-      ]
+      "adHoc": []
     },
-    "city": "Cambridge"
+    "city": "Cambridge, MA"
   },
   {
     "fullName": "Oluwasetemi Ojo",
-    "position": "Frontend Engineer Instructor, AltSchool Africa",
-    "email": "oluwasetemi.ojo@womencodingcommunity.com",
+    "position": "Frontend Engineer Instructor",
+    "email": "",
     "slackDisplayName": "@Oluwasetemi",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "JM",
+      "countryName": "Jamaica",
+      "capital": "Kingston"
     },
     "companyName": "AltSchool Africa",
     "memberTypes": [
@@ -3684,9 +3538,9 @@
         "link": "https://www.oluwasetemi.dev/links"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3698,11 +3552,11 @@
         },
         {
           "technicalArea": "FRONTEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "ADVANCED"
         },
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
+          "proficiencyLevel": "INTERMEDIATE"
         }
       ],
       "languages": [
@@ -3730,26 +3584,21 @@
       "idealMentee": "I'm looking for a mentee who is hungry to grow — someone who takes initiative, shows up consistently, and isn't afraid to ask questions or sit with hard problems. Ideally, they're early in their software engineering journey (0–2 years) and have already taken their first steps: written some code, built something small, and felt the itch to go deeper.",
       "additional": "Modern JavaScript & TypeScript (Advanced Patterns & Best Practices)\nReact & Frontend Architecture (Component Design, Performance, Scalability)\nFull Stack Development (Node.js, APIs, Database Design)\nBreaking into AI Engineering (Getting Started, Tools, Mindset Shift)\nBuilding AI-Powered Web Experiences\nReal-Time Frontend Development (WebSockets, SSE, Live Data)\nPerformance Optimization (Core Web Vitals, Bundling, Load Time)",
       "longTerm": {
-        "numMentee": 5,
-        "hours": 5
+        "numMentee": 5
       },
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 5
-        }
-      ]
+      "adHoc": []
     },
     "city": "Kingston"
   },
   {
     "fullName": "Aruma Ezinne Jennifer",
-    "position": "Product manager, MycoverGenius",
-    "email": "aruma.ezinne.jennifer@womencodingcommunity.com",
+    "position": "Product manager",
+    "email": "",
     "slackDisplayName": "@Aruma",
     "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
+      "countryCode": "NG",
+      "countryName": "Nigeria",
+      "capital": "Abuja"
     },
     "companyName": "MycoverGenius",
     "memberTypes": [
@@ -3766,9 +3615,9 @@
         "link": "https://www.instagram.com/ezynnedimma?igsh=MWg0dXN2cTNhcnh0cw%3D%3D&utm_source=qr"
       }
     ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
+    "isWomen": false,
+    "acceptMale": false,
+    "acceptPromotion": false,
     "pronouns": "she/her",
     "pronounCategory": "FEMININE",
     "skills": {
@@ -3776,11 +3625,11 @@
       "areas": [
         {
           "technicalArea": "BACKEND",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "EXPERT"
         },
         {
           "technicalArea": "PROJECT_MANAGEMENT",
-          "proficiencyLevel": "INTERMEDIATE"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [],
@@ -3797,12 +3646,8 @@
     "menteeSection": {
       "idealMentee": "Someone who is ready to learn, grow, and explore. Someone who doesn't make excuses but finds a way to be present and make things work.",
       "additional": "Product thinking as a product manager\nproduct manager's career roadmap \nProblem/solution validation while building product",
-      "adHoc": [
-        {
-          "month": "JUNE",
-          "hours": 4
-        }
-      ]
-    }
+      "adHoc": []
+    },
+    "city": "Abuja"
   }
 ]

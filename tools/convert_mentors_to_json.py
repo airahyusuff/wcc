@@ -15,64 +15,119 @@ from pathlib import Path
 def parse_location(location_str):
     """Parse location string into city and country."""
     if not location_str:
-        return None, {"countryCode": "GB", "countryName": "United Kingdom"}
+        return "London", {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"}
     
-    # Common country mappings
+    # Common country mappings with capitals
     country_mappings = {
-        "UK": {"countryCode": "GB", "countryName": "United Kingdom"},
-        "United Kingdom": {"countryCode": "GB", "countryName": "United Kingdom"},
-        "USA": {"countryCode": "US", "countryName": "United States"},
-        "United States": {"countryCode": "US", "countryName": "United States"},
-        "Germany": {"countryCode": "DE", "countryName": "Germany"},
-        "Netherlands": {"countryCode": "NL", "countryName": "Netherlands"},
-        "The Netherlands": {"countryCode": "NL", "countryName": "Netherlands"},
-        "Spain": {"countryCode": "ES", "countryName": "Spain"},
-        "France": {"countryCode": "FR", "countryName": "France"},
-        "Italy": {"countryCode": "IT", "countryName": "Italy"},
-        "Portugal": {"countryCode": "PT", "countryName": "Portugal"},
-        "Ireland": {"countryCode": "IE", "countryName": "Ireland"},
-        "Poland": {"countryCode": "PL", "countryName": "Poland"},
-        "Canada": {"countryCode": "CA", "countryName": "Canada"},
-        "Australia": {"countryCode": "AU", "countryName": "Australia"},
-        "New Zealand": {"countryCode": "NZ", "countryName": "New Zealand"},
-        "India": {"countryCode": "IN", "countryName": "India"},
-        "Singapore": {"countryCode": "SG", "countryName": "Singapore"},
-        "Sweden": {"countryCode": "SE", "countryName": "Sweden"},
-        "Denmark": {"countryCode": "DK", "countryName": "Denmark"},
-        "Norway": {"countryCode": "NO", "countryName": "Norway"},
-        "Finland": {"countryCode": "FI", "countryName": "Finland"},
-        "Belgium": {"countryCode": "BE", "countryName": "Belgium"},
-        "Switzerland": {"countryCode": "CH", "countryName": "Switzerland"},
-        "Austria": {"countryCode": "AT", "countryName": "Austria"},
-        "Brazil": {"countryCode": "BR", "countryName": "Brazil"},
-        "Argentina": {"countryCode": "AR", "countryName": "Argentina"},
-        "Mexico": {"countryCode": "MX", "countryName": "Mexico"},
-        "Japan": {"countryCode": "JP", "countryName": "Japan"},
-        "South Korea": {"countryCode": "KR", "countryName": "South Korea"},
-        "China": {"countryCode": "CN", "countryName": "China"},
+        "UK": {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"},
+        "United Kingdom": {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"},
+        "USA": {"countryCode": "US", "countryName": "United States", "capital": "Washington DC"},
+        "United States": {"countryCode": "US", "countryName": "United States", "capital": "Washington DC"},
+        "Germany": {"countryCode": "DE", "countryName": "Germany", "capital": "Berlin"},
+        "Netherlands": {"countryCode": "NL", "countryName": "Netherlands", "capital": "Amsterdam"},
+        "The Netherlands": {"countryCode": "NL", "countryName": "Netherlands", "capital": "Amsterdam"},
+        "Spain": {"countryCode": "ES", "countryName": "Spain", "capital": "Madrid"},
+        "France": {"countryCode": "FR", "countryName": "France", "capital": "Paris"},
+        "Italy": {"countryCode": "IT", "countryName": "Italy", "capital": "Rome"},
+        "Portugal": {"countryCode": "PT", "countryName": "Portugal", "capital": "Lisbon"},
+        "Ireland": {"countryCode": "IE", "countryName": "Ireland", "capital": "Dublin"},
+        "Poland": {"countryCode": "PL", "countryName": "Poland", "capital": "Warsaw"},
+        "Canada": {"countryCode": "CA", "countryName": "Canada", "capital": "Ottawa"},
+        "Australia": {"countryCode": "AU", "countryName": "Australia", "capital": "Canberra"},
+        "New Zealand": {"countryCode": "NZ", "countryName": "New Zealand", "capital": "Wellington"},
+        "India": {"countryCode": "IN", "countryName": "India", "capital": "New Delhi"},
+        "Singapore": {"countryCode": "SG", "countryName": "Singapore", "capital": "Singapore"},
+        "Sweden": {"countryCode": "SE", "countryName": "Sweden", "capital": "Stockholm"},
+        "Denmark": {"countryCode": "DK", "countryName": "Denmark", "capital": "Copenhagen"},
+        "Norway": {"countryCode": "NO", "countryName": "Norway", "capital": "Oslo"},
+        "Finland": {"countryCode": "FI", "countryName": "Finland", "capital": "Helsinki"},
+        "Belgium": {"countryCode": "BE", "countryName": "Belgium", "capital": "Brussels"},
+        "Switzerland": {"countryCode": "CH", "countryName": "Switzerland", "capital": "Bern"},
+        "Austria": {"countryCode": "AT", "countryName": "Austria", "capital": "Vienna"},
+        "Brazil": {"countryCode": "BR", "countryName": "Brazil", "capital": "Brasília"},
+        "Argentina": {"countryCode": "AR", "countryName": "Argentina", "capital": "Buenos Aires"},
+        "Mexico": {"countryCode": "MX", "countryName": "Mexico", "capital": "Mexico City"},
+        "Japan": {"countryCode": "JP", "countryName": "Japan", "capital": "Tokyo"},
+        "South Korea": {"countryCode": "KR", "countryName": "South Korea", "capital": "Seoul"},
+        "China": {"countryCode": "CN", "countryName": "China", "capital": "Beijing"},
+        "Albania": {"countryCode": "AL", "countryName": "Albania", "capital": "Tirana"},
+        "Turkey": {"countryCode": "TR", "countryName": "Turkey", "capital": "Ankara"},
+        "Serbia": {"countryCode": "RS", "countryName": "Serbia", "capital": "Belgrade"},
+        "Romania": {"countryCode": "RO", "countryName": "Romania", "capital": "Bucharest"},
+        "Bulgaria": {"countryCode": "BG", "countryName": "Bulgaria", "capital": "Sofia"},
+        "Jamaica": {"countryCode": "JM", "countryName": "Jamaica", "capital": "Kingston"},
+        "Nigeria": {"countryCode": "NG", "countryName": "Nigeria", "capital": "Abuja"},
     }
     
-    # Try to parse location string (format: "City, Country" or just "Country")
-    parts = [p.strip() for p in location_str.split(',')]
+    # Normalize slashes to commas for consistent parsing
+    location_normalized = location_str.replace('/', ',').strip()
+    
+    # Try to parse location string
+    parts = [p.strip() for p in location_normalized.split(',')]
     
     city = None
-    country = {"countryCode": "GB", "countryName": "United Kingdom"}  # Default
+    country = {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"}  # Default
+    country_found = False
     
     if len(parts) == 1:
-        # Just country or just city
+        # Single part - could be city or country
+        single_part = parts[0]
+        
+        # Check if it matches a country exactly
         for country_name, country_info in country_mappings.items():
-            if country_name.lower() in parts[0].lower():
+            if country_name.lower() == single_part.lower():
                 country = country_info
+                city = country_info.get("capital")
+                country_found = True
                 break
-    elif len(parts) >= 2:
-        # City, Country format
-        city = parts[0]
+        
+        # If not a country, treat as city (keep default UK country)
+        if not country_found:
+            city = single_part
+            
+    elif len(parts) == 2:
+        # Two parts - typically City, Country
+        city_part = parts[0]
+        country_part = parts[1].strip()
+        
+        # Check if first part is country (e.g., "Bulgaria, Sofia")
+        first_is_country = False
+        for country_name, country_info in country_mappings.items():
+            if country_name.lower() == city_part.lower():
+                # First part is country, second is city
+                city = country_part
+                country = country_info
+                country_found = True
+                first_is_country = True
+                break
+        
+        # If first part wasn't country, check second part for country
+        if not first_is_country:
+            for country_name, country_info in country_mappings.items():
+                if country_name.lower() in country_part.lower():
+                    country = country_info
+                    city = city_part
+                    country_found = True
+                    break
+            
+            # If still not found, use first part as city
+            if not country_found:
+                city = city_part
+                
+    elif len(parts) > 2:
+        # Multiple commas - last part is country, rest is city
         country_part = parts[-1].strip()
+        city = ', '.join(parts[:-1])  # Join all parts except last as city
         
         for country_name, country_info in country_mappings.items():
             if country_name.lower() in country_part.lower():
                 country = country_info
+                country_found = True
                 break
+    
+    # If still no city, use capital as default
+    if not city:
+        city = country.get("capital", "London")
     
     return city, country
 
@@ -160,17 +215,27 @@ def parse_languages(languages_str):
         if lang:
             normalized = normalize_language(lang)
             if normalized:
-                # Default proficiency based on position in list (first = EXPERT, others = ADVANCED)
-                proficiency = "ADVANCED"
-                if len(result) == 0:
-                    proficiency = "EXPERT"
-                
-                result.append({
-                    "language": normalized,
-                    "proficiencyLevel": proficiency
-                })
+                result.append(normalized)
     
-    return result
+    # Assign proficiency levels based on position
+    # EXPERT, ADVANCED, INTERMEDIATE, BEGINNER
+    # If more than 4, last one uses BEGINNER
+    proficiency_levels = ["EXPERT", "ADVANCED", "INTERMEDIATE", "BEGINNER"]
+    
+    languages_with_proficiency = []
+    for i, lang in enumerate(result):
+        if i < len(proficiency_levels):
+            proficiency = proficiency_levels[i]
+        else:
+            # More than 4 items, use BEGINNER for the rest
+            proficiency = "BEGINNER"
+        
+        languages_with_proficiency.append({
+            "language": lang,
+            "proficiencyLevel": proficiency
+        })
+    
+    return languages_with_proficiency
 
 
 def parse_spoken_languages(languages_str):
@@ -204,6 +269,24 @@ def generate_email(name):
     email_local = cleaned.replace(' ', '.')
     
     return f"{email_local}@womencodingcommunity.com"
+
+
+def extract_position_role(position_str):
+    """Extract role from position string (before comma)."""
+    if not position_str:
+        return ""
+    
+    # Split by comma and take the first part (the role)
+    if ',' in position_str:
+        return position_str.split(',')[0].strip()
+    
+    # If no comma, check if there's "at Company" pattern
+    if ' at ' in position_str.lower():
+        parts = position_str.split(' at ', 1)
+        return parts[0].strip()
+    
+    # Otherwise return the entire string (role-only)
+    return position_str.strip()
 
 
 def extract_company_name(position_str):
@@ -251,15 +334,20 @@ def convert_mentor_to_json(mentor):
     
     # Parse technical areas
     areas = []
-    for area in skills_data.get('areas', []):
+    area_list = skills_data.get('areas', [])
+    
+    # Assign proficiency levels: EXPERT, ADVANCED, INTERMEDIATE, BEGINNER
+    # If more than 4, use BEGINNER for the rest
+    proficiency_levels = ["EXPERT", "ADVANCED", "INTERMEDIATE", "BEGINNER"]
+    
+    for i, area in enumerate(area_list):
         normalized_area = normalize_technical_area(area)
-        # Assign proficiency based on years of experience
-        if years_exp >= 10:
-            proficiency = "EXPERT"
-        elif years_exp >= 5:
-            proficiency = "ADVANCED"
+        
+        if i < len(proficiency_levels):
+            proficiency = proficiency_levels[i]
         else:
-            proficiency = "INTERMEDIATE"
+            # More than 4 items, use BEGINNER for the rest
+            proficiency = "BEGINNER"
         
         areas.append({
             "technicalArea": normalized_area,
@@ -278,44 +366,35 @@ def convert_mentor_to_json(mentor):
         "additional": skills_data.get('extra', '').strip(),
     }
     
-    # Add long term mentorship info
+    # Add long term mentorship info (without hours - hours in YAML is for adhoc)
     num_mentee = mentor.get('num_mentee', 0)
-    hours = mentor.get('hours', 0)
     mentor_type = mentor.get('type', 'long-term')
     
     if mentor_type in ['long-term', 'both'] and num_mentee > 0:
         mentee_section['longTerm'] = {
-            "numMentee": num_mentee,
-            "hours": hours
+            "numMentee": num_mentee
+            # hours field intentionally omitted - will be set later via spreadsheet
         }
     
-    # Add ad-hoc availability
-    availability = mentor.get('availability', [])
-    if (mentor_type in ['ad-hoc', 'both'] or availability) and hours > 0:
-        # Convert availability to adHoc format
-        # Note: The original YAML doesn't have month-specific availability
-        # so we'll create a placeholder
-        mentee_section['adHoc'] = [
-            {"month": "JUNE", "hours": hours},
-        ]
+    # adHoc array should be empty for now
+    mentee_section['adHoc'] = []
     
     # Build the final JSON structure
-    # Note: email is a placeholder as actual emails are not in the YAML source
-    # Gender-related fields use defaults appropriate for Women Coding Community
-    # which specifically supports women in tech (adjust if source data provides these fields)
+    # Note: email left blank - will be imported later via spreadsheet
+    # Gender-related fields default to false until confirmed
     json_mentor = {
         "fullName": mentor.get('name', ''),
-        "position": mentor.get('position', ''),
-        "email": generate_email(mentor.get('name', 'unknown')),
+        "position": extract_position_role(mentor.get('position', '')),
+        "email": "",  # Left blank - will be imported via spreadsheet
         "slackDisplayName": f"@{mentor.get('name', '').split()[0]}",
         "country": country,
         "companyName": extract_company_name(mentor.get('position', '')),
         "memberTypes": ["MENTOR"],
         "images": [],
         "network": network,
-        "isWomen": True,  # Default for WCC which supports women in tech
-        "acceptMale": True,
-        "acceptPromotion": True,
+        "isWomen": False,  # Default to false until confirmed
+        "acceptMale": False,  # Default to false until confirmed
+        "acceptPromotion": False,  # Default to false until confirmed
         "pronouns": "she/her",
         "pronounCategory": "FEMININE",
         "skills": {
@@ -329,9 +408,8 @@ def convert_mentor_to_json(mentor):
         "menteeSection": mentee_section
     }
     
-    # Add city if available
-    if city:
-        json_mentor['city'] = city
+    # Add city - should always be present now
+    json_mentor['city'] = city
     
     return json_mentor
 
