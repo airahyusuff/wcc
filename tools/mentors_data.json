@@ -518,7 +518,7 @@
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "SITE_RELIABILITY",
+          "technicalArea": "SITE_RELIABILITY_ENGINEERING",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
@@ -2730,6 +2730,10 @@
         {
           "language": "C_SHARP",
           "proficiencyLevel": "EXPERT"
+        },
+        {
+          "language": "DART",
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "mentorshipFocus": [
@@ -3050,7 +3054,7 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "SITE_RELIABILITY",
+          "technicalArea": "SITE_RELIABILITY_ENGINEERING",
           "proficiencyLevel": "ADVANCED"
         },
         {
@@ -3058,11 +3062,32 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "NETWORK",
+          "technicalArea": "NETWORK_ENGINEERING",
           "proficiencyLevel": "BEGINNER"
         }
       ],
-      "languages": [],
+      "languages": [
+        {
+          "language": "HCL_(TERRAFORM/OPENTOFU)",
+          "proficiencyLevel": "EXPERT"
+        },
+        {
+          "language": "REGO",
+          "proficiencyLevel": "ADVANCED"
+        },
+        {
+          "language": "YAML",
+          "proficiencyLevel": "INTERMEDIATE"
+        },
+        {
+          "language": "BASH",
+          "proficiencyLevel": "BEGINNER"
+        },
+        {
+          "language": "PYTHON_(FOR_SCRIPTING)",
+          "proficiencyLevel": "BEGINNER"
+        }
+      ],
       "mentorshipFocus": [
         "Change specialisation within IT",
         "Switch career to IT"

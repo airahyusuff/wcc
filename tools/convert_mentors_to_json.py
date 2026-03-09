@@ -219,18 +219,11 @@ def normalize_technical_area(area):
     if area_lower in area_mappings:
         return area_mappings[area_lower]
     
-    # If no match, create an equivalent by converting to uppercase snake case
-    # Remove common suffixes like "developer", "engineer", etc.
-    normalized = area_lower
-    suffixes_to_remove = [" developer", " engineer", " engineering", " development"]
-    for suffix in suffixes_to_remove:
-        if normalized.endswith(suffix):
-            normalized = normalized[:-len(suffix)].strip()
-            break
-    
-    # Convert to uppercase snake case: "Machine Learning" -> "MACHINE_LEARNING"
+    # If no match, use the original value and concatenate with "_" and capitalize
+    # Do NOT remove suffixes - keep the original value as-is
+    # Convert to uppercase snake case: "Network Engineering" -> "NETWORK_ENGINEERING"
     # Replace spaces and hyphens with underscores, then uppercase
-    equivalent = normalized.replace(' ', '_').replace('-', '_').upper()
+    equivalent = area.strip().replace(' ', '_').replace('-', '_').upper()
     
     return equivalent
 
@@ -265,7 +258,17 @@ def normalize_language(lang):
     }
     
     lang_lower = lang.lower().strip()
-    return lang_mappings.get(lang_lower, None)
+    
+    # Check if we have a direct mapping
+    if lang_lower in lang_mappings:
+        return lang_mappings[lang_lower]
+    
+    # If no match, use the original value and concatenate with "_" and capitalize
+    # Convert to uppercase snake case: "Dart" -> "DART", "Some Lang" -> "SOME_LANG"
+    # Replace spaces and hyphens with underscores, then uppercase
+    equivalent = lang.strip().replace(' ', '_').replace('-', '_').upper()
+    
+    return equivalent
 
 
 def parse_languages(languages_str):
@@ -273,8 +276,9 @@ def parse_languages(languages_str):
     if not languages_str or languages_str == '':
         return []
     
-    # Split by common delimiters
-    langs = re.split(r'[,;/]', languages_str)
+    # Split by comma and semicolon only (not slash, as it can be part of language names in parentheses)
+    # Example: "HCL (Terraform/OpenTofu)" should stay as one language
+    langs = re.split(r'[,;]', languages_str)
     
     result = []
     for lang in langs:
