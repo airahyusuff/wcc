@@ -3,12 +3,12 @@
     "fullName": "Rajani Rao",
     "position": "CTO/Principal Technologist",
     "email": "",
-    "slackDisplayName": "@Rajani",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Cambridge",
     "companyName": "WInvest/AVEVA",
     "memberTypes": [
       "MENTOR"
@@ -23,8 +23,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
@@ -90,19 +90,18 @@
         "numMentee": 3
       },
       "adHoc": []
-    },
-    "city": "Cambridge"
+    }
   },
   {
     "fullName": "Eleonora Belova",
     "position": "Test Automation Engineer",
     "email": "",
-    "slackDisplayName": "@Eleonora",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "NL",
-      "countryName": "Netherlands",
-      "capital": "Amsterdam"
+      "countryName": "Netherlands"
     },
+    "city": "Amsterdam",
     "companyName": "IBM Security",
     "memberTypes": [
       "MENTOR"
@@ -125,13 +124,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "EXPERT"
         }
       ],
@@ -167,19 +166,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Amsterdam"
+    }
   },
   {
     "fullName": "Stephanie Senoner",
     "position": "Senior Software Engineer",
     "email": "",
-    "slackDisplayName": "@Stephanie",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Zopa",
     "memberTypes": [
       "MENTOR"
@@ -194,8 +192,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -212,11 +210,11 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -253,19 +251,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Ken Pemberton",
     "position": "PEOPLE-FIRST servant-leadership of technical teams",
     "email": "",
-    "slackDisplayName": "@Ken",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Chesham, Buckinghamshire",
     "companyName": "To be determined!",
     "memberTypes": [
       "MENTOR"
@@ -284,13 +281,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         }
       ],
@@ -312,19 +309,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Chesham, Buckinghamshire"
+    }
   },
   {
     "fullName": "Irina Kamalova",
     "position": "Backend Software Engineer",
     "email": "",
-    "slackDisplayName": "@Irina",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Revolut",
     "memberTypes": [
       "MENTOR"
@@ -339,8 +335,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -397,19 +393,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Ana Nogal",
     "position": "Career Coach & Mentor | Recruitment & Operations Lead",
     "email": "",
-    "slackDisplayName": "@Ana",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "ES",
-      "countryName": "Spain",
-      "capital": "Madrid"
+      "countryName": "Spain"
     },
+    "city": "Barcelona",
     "companyName": "ananogal.com | Novoda",
     "memberTypes": [
       "MENTOR"
@@ -428,13 +423,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "MOBILE_IOS",
           "proficiencyLevel": "EXPERT"
         },
         {
@@ -442,7 +437,7 @@
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "MOBILE_ANDROID",
           "proficiencyLevel": "INTERMEDIATE"
         }
       ],
@@ -483,19 +478,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Barcelona"
+    }
   },
   {
     "fullName": "Bryan Boreham",
     "position": "Distinguished Engineer",
     "email": "",
-    "slackDisplayName": "@Bryan",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Grafana Labs",
     "memberTypes": [
       "MENTOR"
@@ -510,8 +504,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
@@ -520,11 +514,11 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "SITE_RELIABILITY",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
@@ -577,19 +571,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Sonali Goel",
     "position": "Senior Developer",
     "email": "",
-    "slackDisplayName": "@Sonali",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Yoox-Net-A-Porter",
     "memberTypes": [
       "MENTOR"
@@ -604,8 +597,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -614,11 +607,11 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
@@ -649,19 +642,18 @@
       "idealMentee": "New to tech or someone who needs some guidance about tech world or someone needs to grow",
       "additional": "Software Development Processes and Overview, Guidance on how to prepare for Interviews, BDD and TDD approach to development. AWS solution guidance/path for study or certifications.",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Adeola Adekoyejo",
     "position": "Full stack Engineer",
     "email": "",
-    "slackDisplayName": "@Adeola",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Nill",
     "memberTypes": [
       "MENTOR"
@@ -680,8 +672,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -690,7 +682,7 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         },
         {
@@ -721,19 +713,18 @@
       "idealMentee": "You don’t have to know so much as long as you are willing to learn and do the work from your end",
       "additional": "Frontend interview prep, technical writing, system design, web accessibility, testing",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Sakirat Kehinde Usman",
     "position": "Frontend Development Trainer",
     "email": "",
-    "slackDisplayName": "@Sakirat",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Manchester",
     "companyName": "Niyo Group Ltd",
     "memberTypes": [
       "MENTOR"
@@ -756,8 +747,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -766,11 +757,11 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "BUSINESS_ANALYSIS",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
@@ -804,19 +795,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Manchester"
+    }
   },
   {
     "fullName": "Nonna Shakhova",
     "position": "Senior Analytics Engineer",
     "email": "",
-    "slackDisplayName": "@Nonna",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Trusted Housesitters",
     "memberTypes": [
       "MENTOR"
@@ -831,8 +821,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -841,15 +831,15 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
@@ -883,19 +873,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Ying Liu",
     "position": "Head of AI",
     "email": "",
-    "slackDisplayName": "@Ying",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "TG0",
     "memberTypes": [
       "MENTOR"
@@ -910,8 +899,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -920,7 +909,7 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "ADVANCED"
         },
         {
@@ -950,19 +939,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Adriana Zencke Zimmermann",
     "position": "Tech Lead",
     "email": "",
-    "slackDisplayName": "@Adriana",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "ES",
-      "countryName": "Spain",
-      "capital": "Madrid"
+      "countryName": "Spain"
     },
+    "city": "Valencia",
     "companyName": "Centric Software",
     "memberTypes": [
       "MENTOR"
@@ -985,8 +973,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -1007,7 +995,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -1046,19 +1034,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Valencia"
+    }
   },
   {
     "fullName": "Fernanda Martins",
     "position": "DevOps Engineer",
     "email": "",
-    "slackDisplayName": "@Fernanda",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "NL",
-      "countryName": "Netherlands",
-      "capital": "Amsterdam"
+      "countryName": "Netherlands"
     },
+    "city": "Amsterdam",
     "companyName": "Clay Solutions",
     "memberTypes": [
       "MENTOR"
@@ -1073,8 +1060,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -1102,19 +1089,18 @@
         "numMentee": 4
       },
       "adHoc": []
-    },
-    "city": "Amsterdam"
+    }
   },
   {
     "fullName": "Gabriel Oliveira",
     "position": "QA Engineer",
     "email": "",
-    "slackDisplayName": "@Gabriel",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Amsterdam",
     "companyName": "Picnic",
     "memberTypes": [
       "MENTOR"
@@ -1129,21 +1115,21 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 10,
       "areas": [
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
@@ -1189,19 +1175,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Amsterdam"
+    }
   },
   {
     "fullName": "Samuela Smolorz",
     "position": "Software Engineer",
     "email": "",
-    "slackDisplayName": "@Samuela",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Garrison Technology Ltd",
     "memberTypes": [
       "MENTOR"
@@ -1216,8 +1201,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
@@ -1274,19 +1259,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Arzu Caner",
     "position": "Fullstack Developer",
     "email": "",
-    "slackDisplayName": "@Arzu",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "InnoAl Tech Solution",
     "memberTypes": [
       "MENTOR"
@@ -1313,8 +1297,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
@@ -1342,19 +1326,18 @@
       "idealMentee": "Those who are changing their careers, interested in app development.",
       "additional": "Career change, app development, software development, GitHub, hackathons, technical writing, React, React Native, JavaScript, Node.js, MongoDB",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Prabha Venkatesh",
     "position": "Data scientist",
     "email": "",
-    "slackDisplayName": "@Prabha",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Bristol",
     "companyName": "Milbotix",
     "memberTypes": [
       "MENTOR"
@@ -1369,13 +1352,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "EXPERT"
         },
         {
@@ -1387,11 +1370,11 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -1430,19 +1413,18 @@
         "numMentee": 3
       },
       "adHoc": []
-    },
-    "city": "Bristol"
+    }
   },
   {
     "fullName": "Ima-Abasi Effiong",
     "position": "QA Engineer",
     "email": "",
-    "slackDisplayName": "@Ima-Abasi",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "NG",
-      "countryName": "Nigeria",
-      "capital": "Abuja"
+      "countryName": "Nigeria"
     },
+    "city": "Abuja",
     "companyName": "Cloudenly",
     "memberTypes": [
       "MENTOR"
@@ -1457,17 +1439,17 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         }
       ],
@@ -1490,19 +1472,18 @@
       "idealMentee": "I can provide guidance and resources to a passionate self learner, an early career engineer and people who just switched from different fields to Software Testing.",
       "additional": "Quality Assurance, Switch career to IT, Product Management, Grow from beginner to mid level.",
       "adHoc": []
-    },
-    "city": "Abuja"
+    }
   },
   {
     "fullName": "Lidiane Mayra Taquehara",
     "position": "Senior Software Engineer",
     "email": "",
-    "slackDisplayName": "@Lidiane",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Artsy",
     "memberTypes": [
       "MENTOR"
@@ -1517,8 +1498,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 10,
       "areas": [
@@ -1527,7 +1508,7 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "ADVANCED"
         },
         {
@@ -1576,19 +1557,18 @@
       "idealMentee": "A mentee with a curious mind and passionate about learning new things.",
       "additional": "Software engineering, Automated tests, Backend development, Test Driven Development, Web scraping",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Sergei Begishev",
     "position": "Chief Product Officer",
     "email": "",
-    "slackDisplayName": "@Sergei",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "RS",
-      "countryName": "Serbia",
-      "capital": "Belgrade"
+      "countryName": "Serbia"
     },
+    "city": "Belgrade",
     "companyName": "Overgear",
     "memberTypes": [
       "MENTOR"
@@ -1603,25 +1583,25 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "BUSINESS_ANALYSIS",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
@@ -1650,19 +1630,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Belgrade"
+    }
   },
   {
     "fullName": "Nadezhda Iaromirova",
     "position": "Sr. IT Project Manager",
     "email": "",
-    "slackDisplayName": "@Nadezhda",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "BG",
-      "countryName": "Bulgaria",
-      "capital": "Sofia"
+      "countryName": "Bulgaria"
     },
+    "city": "Sofia",
     "companyName": "Aceonis",
     "memberTypes": [
       "MENTOR"
@@ -1681,17 +1660,17 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "BUSINESS_ANALYSIS",
           "proficiencyLevel": "ADVANCED"
         }
       ],
@@ -1713,19 +1692,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Sofia"
+    }
   },
   {
     "fullName": "Kateryna Ogar",
     "position": "Product Manager",
     "email": "",
-    "slackDisplayName": "@Kateryna",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Newcastle upon Tyne",
     "companyName": "Cisco Systems",
     "memberTypes": [
       "MENTOR"
@@ -1744,17 +1722,17 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         }
       ],
@@ -1778,19 +1756,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Newcastle upon Tyne"
+    }
   },
   {
     "fullName": "Wilson Adenuga",
     "position": "Senior Frontend Engineer",
     "email": "",
-    "slackDisplayName": "@Wilson",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Birmingham",
     "companyName": "BeyondIT SRL",
     "memberTypes": [
       "MENTOR"
@@ -1809,8 +1786,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -1854,19 +1831,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Birmingham"
+    }
   },
   {
     "fullName": "Sebastian Castro",
     "position": "Robotics Software Engineer",
     "email": "",
-    "slackDisplayName": "@Sebastian",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "US",
-      "countryName": "United States",
-      "capital": "Washington DC"
+      "countryName": "United States"
     },
+    "city": "Boston, MA",
     "companyName": "Robotics and AI Institute",
     "memberTypes": [
       "MENTOR"
@@ -1885,8 +1861,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -1907,7 +1883,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -1953,19 +1929,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Boston, MA"
+    }
   },
   {
     "fullName": "Ramona Gawarwala",
     "position": "Full Stack Software Engineer",
     "email": "",
-    "slackDisplayName": "@Ramona",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Capgemini",
     "memberTypes": [
       "MENTOR"
@@ -1980,8 +1955,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -2035,19 +2010,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Sonika Janagill",
     "position": "Engineering Advocate",
     "email": "",
-    "slackDisplayName": "@Sonika",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Watford",
     "companyName": "VML",
     "memberTypes": [
       "MENTOR"
@@ -2062,8 +2036,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
@@ -2080,7 +2054,7 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "ENGINEERING_MANAGEMENT",
+          "technicalArea": "ENG_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
@@ -2122,19 +2096,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Watford"
+    }
   },
   {
     "fullName": "Prerna Singhal",
     "position": "Senior Software Engineer 2",
     "email": "",
-    "slackDisplayName": "@Prerna",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Hubspot",
     "memberTypes": [
       "MENTOR"
@@ -2149,8 +2122,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -2171,7 +2144,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -2216,19 +2189,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "ilayda yilmaz",
     "position": "Data Scientist",
     "email": "",
-    "slackDisplayName": "@ilayda",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "TR",
-      "countryName": "Turkey",
-      "capital": "Ankara"
+      "countryName": "Turkey"
     },
+    "city": "Ankara",
     "companyName": "GDZ",
     "memberTypes": [
       "MENTOR"
@@ -2243,13 +2215,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "EXPERT"
         },
         {
@@ -2265,7 +2237,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -2296,19 +2268,18 @@
       "idealMentee": "I'm looking for a mentee who is curious, motivated, and open to feedback. Ideally, someone who is either transitioning into the data field or already on their way and looking for guidance on how to grow. I’d love to work with someone who’s willing to explore ideas, ask questions, and take initiative in their learning journey.",
       "additional": "What to focus on when transitioning into data science\nBuilding a roadmap for becoming a Data Scientist\nTechnical interview preparation for data roles\nResume and LinkedIn review for aspiring data professionals\nWorking on portfolio projects and showcasing them effectively\nCommunicating data insights clearly to different audiences",
       "adHoc": []
-    },
-    "city": "Ankara"
+    }
   },
   {
     "fullName": "Damola Taiwo",
     "position": "Frontend Engineer",
     "email": "",
-    "slackDisplayName": "@Damola",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Just Eat Takeaway",
     "memberTypes": [
       "MENTOR"
@@ -2323,8 +2294,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -2387,19 +2358,18 @@
       "idealMentee": "I’m looking for mentees who are actively job hunting and need guidance through the process, beginners in tech who want support in learning and mastering the fundamentals, and junior frontend developers seeking advice on advancing their skills and progressing to the next stage of their careers",
       "additional": "Frontend system design interview preparation and strategies\n\nPreparing for technical interviews (Frontend focus)\n\nResume review and feedback\n\nTransitioning into a frontend development career",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Dan Antonela",
     "position": "Data Architect",
     "email": "",
-    "slackDisplayName": "@Dan",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "RO",
-      "countryName": "Romania",
-      "capital": "Bucharest"
+      "countryName": "Romania"
     },
+    "city": "Cluj-Napoca",
     "companyName": "Accenture",
     "memberTypes": [
       "MENTOR"
@@ -2414,8 +2384,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
@@ -2436,7 +2406,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -2482,19 +2452,18 @@
         "numMentee": 3
       },
       "adHoc": []
-    },
-    "city": "Cluj-Napoca"
+    }
   },
   {
     "fullName": "Mudit Maheshwari",
     "position": "Quality Automation Specialist",
     "email": "",
-    "slackDisplayName": "@Mudit",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "NatWest Group",
     "memberTypes": [
       "MENTOR"
@@ -2513,13 +2482,13 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "EXPERT"
         },
         {
@@ -2531,7 +2500,7 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "BEGINNER"
         },
         {
@@ -2576,19 +2545,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Tuğçe Kızılçakar",
     "position": "Technical Product Manager",
     "email": "",
-    "slackDisplayName": "@Tuğçe",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Istanbul",
     "companyName": "-",
     "memberTypes": [
       "MENTOR"
@@ -2603,29 +2571,29 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 15,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "BUSINESS_ANALYSIS",
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "DATA_SCIENCE",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -2650,19 +2618,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Istanbul"
+    }
   },
   {
     "fullName": "Marjorie Martinez",
     "position": "Software Developer",
     "email": "",
-    "slackDisplayName": "@Marjorie",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Major Digital",
     "memberTypes": [
       "MENTOR"
@@ -2677,8 +2644,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -2711,19 +2678,18 @@
       "idealMentee": "Somewhere beginner level or mid level that's looking for career guide",
       "additional": "Software Development Strategies, Resume Review, Career Transition, Career Path Guide",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Faith Sodipe",
     "position": "Software Engineer",
     "email": "",
-    "slackDisplayName": "@Faith",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Manchester",
     "companyName": "AMScreen",
     "memberTypes": [
       "MENTOR"
@@ -2742,8 +2708,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -2783,19 +2749,18 @@
         "numMentee": 5
       },
       "adHoc": []
-    },
-    "city": "Manchester"
+    }
   },
   {
     "fullName": "Anastasiia Roldugina",
     "position": "Full Stack Engineer",
     "email": "",
-    "slackDisplayName": "@Anastasiia",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Count Ltd. (Record OS)",
     "memberTypes": [
       "MENTOR"
@@ -2810,8 +2775,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -2853,19 +2818,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Srinivasulu Paranduru",
     "position": "AWS Solution & Senior Devops",
     "email": "",
-    "slackDisplayName": "@Srinivasulu",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "IE",
-      "countryName": "Ireland",
-      "capital": "Dublin"
+      "countryName": "Ireland"
     },
+    "city": "Letterkenny",
     "companyName": "Tata Consultancy Services",
     "memberTypes": [
       "MENTOR"
@@ -2888,8 +2852,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 16,
       "areas": [
@@ -2910,7 +2874,7 @@
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -2957,19 +2921,18 @@
         "numMentee": 6
       },
       "adHoc": []
-    },
-    "city": "Letterkenny"
+    }
   },
   {
     "fullName": "Aria Wright",
     "position": "Build Engineer",
     "email": "",
-    "slackDisplayName": "@Aria",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Boston",
     "companyName": "RAI Institute",
     "memberTypes": [
       "MENTOR"
@@ -2984,8 +2947,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
@@ -3043,19 +3006,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "Boston"
+    }
   },
   {
     "fullName": "Airah Yusuff",
     "position": "Cloud Engineer",
     "email": "",
-    "slackDisplayName": "@Airah",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Trainline",
     "memberTypes": [
       "MENTOR"
@@ -3078,8 +3040,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -3088,7 +3050,7 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "SITE_RELIABILITY",
           "proficiencyLevel": "ADVANCED"
         },
         {
@@ -3096,7 +3058,7 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "NETWORK",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -3115,19 +3077,18 @@
       "idealMentee": "I'm looking to work with mentees who want to:\n1) transition into cloud roles, \n2) strengthen their knowledge of cloud and AWS fundamentals, \n3) join the AWS Community Builders program and get support with their applications, \n4) know more about the UK Global Talent visa and whether it might be a right fit for them.\nI’m still growing as a mentor myself, but I’m committed to doing my best to support mentees and share what I’ve learned along the way.",
       "additional": "AWS Fundamentals, \nTransitioning into Cloud/DevOps Roles, \nAWS Community Builders Program, \nCV Reviews for Junior cloud roles, \nUK Global Talent Visa discussions",
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Michelle Victora",
     "position": "Software Engineer",
     "email": "",
-    "slackDisplayName": "@Michelle",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "US",
-      "countryName": "United States",
-      "capital": "Washington DC"
+      "countryName": "United States"
     },
+    "city": "Cambridge, Massachusetts",
     "companyName": "RAI Institute",
     "memberTypes": [
       "MENTOR"
@@ -3150,8 +3111,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -3190,19 +3151,18 @@
       "idealMentee": "I'm looking for a mentee who's interested in growing into new areas (research -> engineering or back, physics -> robotics, or anything related), or just growing from a beginner to a mid-career engineer.",
       "additional": "Career Transitions & Growth:\n\n*Navigating career pivots (quantum physics → robotics, research → production)\n*Growing from junior to mid-level engineer\n*Dealing with imposter syndrome when changing domains\n*Deciding between startup vs research lab\n\nTechnical Interview Preparation:\n\n*Coding interview strategies and practice (algorithms, data structures)\n*System design discussions (component-level architecture)\n*Behavioral interviews \n*Talking about your work effectively in interviews\n\nSoftware Development:\n\n*Writing production-quality code (vs research code)\n*Working with hardware-software integration\n\nRobotics-Specific:\n\n*ROS 2 development and best practices\n*Writing executors and motion planning algorithms\n*Working with research teams as an engineer",
       "adHoc": []
-    },
-    "city": "Cambridge, Massachusetts"
+    }
   },
   {
     "fullName": "Hersi Kopani",
     "position": "Senior Software Engineer/Cloud Developer",
     "email": "",
-    "slackDisplayName": "@Hersi",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "AL",
-      "countryName": "Albania",
-      "capital": "Tirana"
+      "countryName": "Albania"
     },
+    "city": "Tirana",
     "companyName": "Freelancing",
     "memberTypes": [
       "MENTOR"
@@ -3217,8 +3177,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 7,
       "areas": [
@@ -3281,19 +3241,18 @@
         "numMentee": 3
       },
       "adHoc": []
-    },
-    "city": "Tirana"
+    }
   },
   {
     "fullName": "Nataliia Zablotska",
     "position": "Software engineer",
     "email": "",
-    "slackDisplayName": "@Nataliia",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "London",
     "companyName": "Bauer Media Outdoor UK",
     "memberTypes": [
       "MENTOR"
@@ -3308,8 +3267,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 2,
       "areas": [
@@ -3322,7 +3281,7 @@
           "proficiencyLevel": "ADVANCED"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "INTERMEDIATE"
         }
       ],
@@ -3348,19 +3307,18 @@
         "numMentee": 1
       },
       "adHoc": []
-    },
-    "city": "London"
+    }
   },
   {
     "fullName": "Laura Cabantous-Taylor",
     "position": "Software Engineer",
     "email": "",
-    "slackDisplayName": "@Laura",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "GB",
-      "countryName": "United Kingdom",
-      "capital": "London"
+      "countryName": "United Kingdom"
     },
+    "city": "Stockbridge",
     "companyName": "BBC",
     "memberTypes": [
       "MENTOR"
@@ -3375,8 +3333,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 5,
       "areas": [
@@ -3393,11 +3351,11 @@
           "proficiencyLevel": "INTERMEDIATE"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "BEGINNER"
         },
         {
-          "technicalArea": "QUALITY_ASSURANCE",
+          "technicalArea": "QA",
           "proficiencyLevel": "BEGINNER"
         }
       ],
@@ -3432,19 +3390,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Stockbridge"
+    }
   },
   {
     "fullName": "Wil Thomason",
     "position": "Robotics Research Scientist",
     "email": "",
-    "slackDisplayName": "@Wil",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "US",
-      "countryName": "United States",
-      "capital": "Washington DC"
+      "countryName": "United States"
     },
+    "city": "Cambridge, MA",
     "companyName": "Robotics and AI Institute",
     "memberTypes": [
       "MENTOR"
@@ -3463,8 +3420,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 10,
       "areas": [
@@ -3510,19 +3467,18 @@
         "numMentee": 2
       },
       "adHoc": []
-    },
-    "city": "Cambridge, MA"
+    }
   },
   {
     "fullName": "Oluwasetemi Ojo",
     "position": "Frontend Engineer Instructor",
     "email": "",
-    "slackDisplayName": "@Oluwasetemi",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "JM",
-      "countryName": "Jamaica",
-      "capital": "Kingston"
+      "countryName": "Jamaica"
     },
+    "city": "Kingston",
     "companyName": "AltSchool Africa",
     "memberTypes": [
       "MENTOR"
@@ -3541,8 +3497,8 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 10,
       "areas": [
@@ -3587,19 +3543,18 @@
         "numMentee": 5
       },
       "adHoc": []
-    },
-    "city": "Kingston"
+    }
   },
   {
     "fullName": "Aruma Ezinne Jennifer",
     "position": "Product manager",
     "email": "",
-    "slackDisplayName": "@Aruma",
+    "slackDisplayName": "",
     "country": {
       "countryCode": "NG",
-      "countryName": "Nigeria",
-      "capital": "Abuja"
+      "countryName": "Nigeria"
     },
+    "city": "Abuja",
     "companyName": "MycoverGenius",
     "memberTypes": [
       "MENTOR"
@@ -3618,17 +3573,17 @@
     "isWomen": false,
     "acceptMale": false,
     "acceptPromotion": false,
-    "pronouns": "she/her",
-    "pronounCategory": "FEMININE",
+    "pronouns": "",
+    "pronounCategory": "",
     "skills": {
       "yearsExperience": 4,
       "areas": [
         {
-          "technicalArea": "BACKEND",
+          "technicalArea": "PROD_MANAGEMENT",
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "PROJECT_MANAGEMENT",
+          "technicalArea": "PROJ_MANAGEMENT",
           "proficiencyLevel": "ADVANCED"
         }
       ],
@@ -3647,7 +3602,6 @@
       "idealMentee": "Someone who is ready to learn, grow, and explore. Someone who doesn't make excuses but finds a way to be present and make things work.",
       "additional": "Product thinking as a product manager\nproduct manager's career roadmap \nProblem/solution validation while building product",
       "adHoc": []
-    },
-    "city": "Abuja"
+    }
   }
 ]

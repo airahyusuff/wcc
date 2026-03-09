@@ -15,48 +15,61 @@ from pathlib import Path
 def parse_location(location_str):
     """Parse location string into city and country."""
     if not location_str:
-        return "London", {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"}
+        return "London", {"countryCode": "GB", "countryName": "United Kingdom"}
     
-    # Common country mappings with capitals
+    # Common country mappings (without capital field to match backend schema)
     country_mappings = {
-        "UK": {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"},
-        "United Kingdom": {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"},
-        "USA": {"countryCode": "US", "countryName": "United States", "capital": "Washington DC"},
-        "United States": {"countryCode": "US", "countryName": "United States", "capital": "Washington DC"},
-        "Germany": {"countryCode": "DE", "countryName": "Germany", "capital": "Berlin"},
-        "Netherlands": {"countryCode": "NL", "countryName": "Netherlands", "capital": "Amsterdam"},
-        "The Netherlands": {"countryCode": "NL", "countryName": "Netherlands", "capital": "Amsterdam"},
-        "Spain": {"countryCode": "ES", "countryName": "Spain", "capital": "Madrid"},
-        "France": {"countryCode": "FR", "countryName": "France", "capital": "Paris"},
-        "Italy": {"countryCode": "IT", "countryName": "Italy", "capital": "Rome"},
-        "Portugal": {"countryCode": "PT", "countryName": "Portugal", "capital": "Lisbon"},
-        "Ireland": {"countryCode": "IE", "countryName": "Ireland", "capital": "Dublin"},
-        "Poland": {"countryCode": "PL", "countryName": "Poland", "capital": "Warsaw"},
-        "Canada": {"countryCode": "CA", "countryName": "Canada", "capital": "Ottawa"},
-        "Australia": {"countryCode": "AU", "countryName": "Australia", "capital": "Canberra"},
-        "New Zealand": {"countryCode": "NZ", "countryName": "New Zealand", "capital": "Wellington"},
-        "India": {"countryCode": "IN", "countryName": "India", "capital": "New Delhi"},
-        "Singapore": {"countryCode": "SG", "countryName": "Singapore", "capital": "Singapore"},
-        "Sweden": {"countryCode": "SE", "countryName": "Sweden", "capital": "Stockholm"},
-        "Denmark": {"countryCode": "DK", "countryName": "Denmark", "capital": "Copenhagen"},
-        "Norway": {"countryCode": "NO", "countryName": "Norway", "capital": "Oslo"},
-        "Finland": {"countryCode": "FI", "countryName": "Finland", "capital": "Helsinki"},
-        "Belgium": {"countryCode": "BE", "countryName": "Belgium", "capital": "Brussels"},
-        "Switzerland": {"countryCode": "CH", "countryName": "Switzerland", "capital": "Bern"},
-        "Austria": {"countryCode": "AT", "countryName": "Austria", "capital": "Vienna"},
-        "Brazil": {"countryCode": "BR", "countryName": "Brazil", "capital": "Brasília"},
-        "Argentina": {"countryCode": "AR", "countryName": "Argentina", "capital": "Buenos Aires"},
-        "Mexico": {"countryCode": "MX", "countryName": "Mexico", "capital": "Mexico City"},
-        "Japan": {"countryCode": "JP", "countryName": "Japan", "capital": "Tokyo"},
-        "South Korea": {"countryCode": "KR", "countryName": "South Korea", "capital": "Seoul"},
-        "China": {"countryCode": "CN", "countryName": "China", "capital": "Beijing"},
-        "Albania": {"countryCode": "AL", "countryName": "Albania", "capital": "Tirana"},
-        "Turkey": {"countryCode": "TR", "countryName": "Turkey", "capital": "Ankara"},
-        "Serbia": {"countryCode": "RS", "countryName": "Serbia", "capital": "Belgrade"},
-        "Romania": {"countryCode": "RO", "countryName": "Romania", "capital": "Bucharest"},
-        "Bulgaria": {"countryCode": "BG", "countryName": "Bulgaria", "capital": "Sofia"},
-        "Jamaica": {"countryCode": "JM", "countryName": "Jamaica", "capital": "Kingston"},
-        "Nigeria": {"countryCode": "NG", "countryName": "Nigeria", "capital": "Abuja"},
+        "UK": {"countryCode": "GB", "countryName": "United Kingdom"},
+        "United Kingdom": {"countryCode": "GB", "countryName": "United Kingdom"},
+        "USA": {"countryCode": "US", "countryName": "United States"},
+        "United States": {"countryCode": "US", "countryName": "United States"},
+        "Germany": {"countryCode": "DE", "countryName": "Germany"},
+        "Netherlands": {"countryCode": "NL", "countryName": "Netherlands"},
+        "The Netherlands": {"countryCode": "NL", "countryName": "Netherlands"},
+        "Spain": {"countryCode": "ES", "countryName": "Spain"},
+        "France": {"countryCode": "FR", "countryName": "France"},
+        "Italy": {"countryCode": "IT", "countryName": "Italy"},
+        "Portugal": {"countryCode": "PT", "countryName": "Portugal"},
+        "Ireland": {"countryCode": "IE", "countryName": "Ireland"},
+        "Poland": {"countryCode": "PL", "countryName": "Poland"},
+        "Canada": {"countryCode": "CA", "countryName": "Canada"},
+        "Australia": {"countryCode": "AU", "countryName": "Australia"},
+        "New Zealand": {"countryCode": "NZ", "countryName": "New Zealand"},
+        "India": {"countryCode": "IN", "countryName": "India"},
+        "Singapore": {"countryCode": "SG", "countryName": "Singapore"},
+        "Sweden": {"countryCode": "SE", "countryName": "Sweden"},
+        "Denmark": {"countryCode": "DK", "countryName": "Denmark"},
+        "Norway": {"countryCode": "NO", "countryName": "Norway"},
+        "Finland": {"countryCode": "FI", "countryName": "Finland"},
+        "Belgium": {"countryCode": "BE", "countryName": "Belgium"},
+        "Switzerland": {"countryCode": "CH", "countryName": "Switzerland"},
+        "Austria": {"countryCode": "AT", "countryName": "Austria"},
+        "Brazil": {"countryCode": "BR", "countryName": "Brazil"},
+        "Argentina": {"countryCode": "AR", "countryName": "Argentina"},
+        "Mexico": {"countryCode": "MX", "countryName": "Mexico"},
+        "Japan": {"countryCode": "JP", "countryName": "Japan"},
+        "South Korea": {"countryCode": "KR", "countryName": "South Korea"},
+        "China": {"countryCode": "CN", "countryName": "China"},
+        "Albania": {"countryCode": "AL", "countryName": "Albania"},
+        "Turkey": {"countryCode": "TR", "countryName": "Turkey"},
+        "Serbia": {"countryCode": "RS", "countryName": "Serbia"},
+        "Romania": {"countryCode": "RO", "countryName": "Romania"},
+        "Bulgaria": {"countryCode": "BG", "countryName": "Bulgaria"},
+        "Jamaica": {"countryCode": "JM", "countryName": "Jamaica"},
+        "Nigeria": {"countryCode": "NG", "countryName": "Nigeria"},
+    }
+    
+    # Capital cities for fallback when no city is specified
+    country_capitals = {
+        "GB": "London", "US": "Washington DC", "DE": "Berlin", "NL": "Amsterdam",
+        "ES": "Madrid", "FR": "Paris", "IT": "Rome", "PT": "Lisbon",
+        "IE": "Dublin", "PL": "Warsaw", "CA": "Ottawa", "AU": "Canberra",
+        "NZ": "Wellington", "IN": "New Delhi", "SG": "Singapore", "SE": "Stockholm",
+        "DK": "Copenhagen", "NO": "Oslo", "FI": "Helsinki", "BE": "Brussels",
+        "CH": "Bern", "AT": "Vienna", "BR": "Brasília", "AR": "Buenos Aires",
+        "MX": "Mexico City", "JP": "Tokyo", "KR": "Seoul", "CN": "Beijing",
+        "AL": "Tirana", "TR": "Ankara", "RS": "Belgrade", "RO": "Bucharest",
+        "BG": "Sofia", "JM": "Kingston", "NG": "Abuja",
     }
     
     # Normalize slashes to commas for consistent parsing
@@ -66,7 +79,7 @@ def parse_location(location_str):
     parts = [p.strip() for p in location_normalized.split(',')]
     
     city = None
-    country = {"countryCode": "GB", "countryName": "United Kingdom", "capital": "London"}  # Default
+    country = {"countryCode": "GB", "countryName": "United Kingdom"}  # Default
     country_found = False
     
     if len(parts) == 1:
@@ -77,7 +90,7 @@ def parse_location(location_str):
         for country_name, country_info in country_mappings.items():
             if country_name.lower() == single_part.lower():
                 country = country_info
-                city = country_info.get("capital")
+                city = country_capitals.get(country["countryCode"], "London")
                 country_found = True
                 break
         
@@ -127,14 +140,22 @@ def parse_location(location_str):
     
     # If still no city, use capital as default
     if not city:
-        city = country.get("capital", "London")
+        city = country_capitals.get(country["countryCode"], "London")
     
     return city, country
 
 
 def normalize_technical_area(area):
-    """Normalize technical area to backend enum values."""
+    """Normalize technical area to backend enum values.
+    
+    Reference mappings from wcc-backend:
+    BACKEND, BUSINESS_ANALYSIS, CLOUD_ENGINEER, DATA_SCIENCE, DATA_ENGINEERING,
+    DEVOPS, DISTRIBUTED_SYSTEMS, ENG_MANAGEMENT, FRONTEND, FULLSTACK,
+    MACHINE_LEARNING, MOBILE_ANDROID, MOBILE_IOS, OTHER, PROD_MANAGEMENT,
+    PROJ_MANAGEMENT, QA
+    """
     area_mappings = {
+        # Direct mappings
         "backend developer": "BACKEND",
         "backend": "BACKEND",
         "frontend developer": "FRONTEND",
@@ -142,30 +163,76 @@ def normalize_technical_area(area):
         "fullstack developer": "FULLSTACK",
         "fullstack": "FULLSTACK",
         "full stack": "FULLSTACK",
-        "mobile developer": "MOBILE",
-        "mobile": "MOBILE",
+        "full-stack": "FULLSTACK",
         "devops": "DEVOPS",
         "dev ops": "DEVOPS",
+        "distributed systems": "DISTRIBUTED_SYSTEMS",
+        
+        # Data related
         "data engineering": "DATA_ENGINEERING",
         "data engineer": "DATA_ENGINEERING",
+        "data science": "DATA_SCIENCE",
+        "data scientist": "DATA_SCIENCE",
+        
+        # ML/AI
         "machine learning": "MACHINE_LEARNING",
         "ml": "MACHINE_LEARNING",
         "ai": "MACHINE_LEARNING",
-        "distributed systems": "DISTRIBUTED_SYSTEMS",
-        "quality assurance": "QUALITY_ASSURANCE",
-        "qa": "QUALITY_ASSURANCE",
-        "testing": "QUALITY_ASSURANCE",
-        "engineering management": "ENGINEERING_MANAGEMENT",
-        "management": "ENGINEERING_MANAGEMENT",
-        "project management": "PROJECT_MANAGEMENT",
-        "security": "SECURITY",
-        "cybersecurity": "SECURITY",
-        "cloud": "CLOUD",
-        "database": "DATABASE",
+        
+        # Mobile
+        "mobile developer": "MOBILE_ANDROID",  # Default to Android
+        "mobile": "MOBILE_ANDROID",
+        "mobile android": "MOBILE_ANDROID",
+        "android": "MOBILE_ANDROID",
+        "mobile ios": "MOBILE_IOS",
+        "ios": "MOBILE_IOS",
+        
+        # QA/Testing
+        "quality assurance": "QA",
+        "qa": "QA",
+        "testing": "QA",
+        "test": "QA",
+        "test automation": "QA",
+        
+        # Management
+        "engineering management": "ENG_MANAGEMENT",
+        "management": "ENG_MANAGEMENT",
+        "eng management": "ENG_MANAGEMENT",
+        "project management": "PROJ_MANAGEMENT",
+        "project manager": "PROJ_MANAGEMENT",
+        "product management": "PROD_MANAGEMENT",
+        "product manager": "PROD_MANAGEMENT",
+        
+        # Cloud
+        "cloud": "CLOUD_ENGINEER",
+        "cloud engineer": "CLOUD_ENGINEER",
+        "cloud engineering": "CLOUD_ENGINEER",
+        
+        # Business
+        "business analysis": "BUSINESS_ANALYSIS",
+        "business analyst": "BUSINESS_ANALYSIS",
     }
     
     area_lower = area.lower().strip()
-    return area_mappings.get(area_lower, "BACKEND")  # Default to BACKEND
+    
+    # Check if we have a direct mapping
+    if area_lower in area_mappings:
+        return area_mappings[area_lower]
+    
+    # If no match, create an equivalent by converting to uppercase snake case
+    # Remove common suffixes like "developer", "engineer", etc.
+    normalized = area_lower
+    suffixes_to_remove = [" developer", " engineer", " engineering", " development"]
+    for suffix in suffixes_to_remove:
+        if normalized.endswith(suffix):
+            normalized = normalized[:-len(suffix)].strip()
+            break
+    
+    # Convert to uppercase snake case: "Machine Learning" -> "MACHINE_LEARNING"
+    # Replace spaces and hyphens with underscores, then uppercase
+    equivalent = normalized.replace(' ', '_').replace('-', '_').upper()
+    
+    return equivalent
 
 
 def normalize_language(lang):
@@ -381,13 +448,14 @@ def convert_mentor_to_json(mentor):
     
     # Build the final JSON structure
     # Note: email left blank - will be imported later via spreadsheet
-    # Gender-related fields default to false until confirmed
+    # slackDisplayName, pronouns, pronounCategory left blank - not in source data
     json_mentor = {
         "fullName": mentor.get('name', ''),
         "position": extract_position_role(mentor.get('position', '')),
         "email": "",  # Left blank - will be imported via spreadsheet
-        "slackDisplayName": f"@{mentor.get('name', '').split()[0]}",
+        "slackDisplayName": "",  # Left blank - not in source data
         "country": country,
+        "city": city,  # City comes immediately after country
         "companyName": extract_company_name(mentor.get('position', '')),
         "memberTypes": ["MENTOR"],
         "images": [],
@@ -395,8 +463,8 @@ def convert_mentor_to_json(mentor):
         "isWomen": False,  # Default to false until confirmed
         "acceptMale": False,  # Default to false until confirmed
         "acceptPromotion": False,  # Default to false until confirmed
-        "pronouns": "she/her",
-        "pronounCategory": "FEMININE",
+        "pronouns": "",  # Left blank - not in source data
+        "pronounCategory": "",  # Left blank - not in source data
         "skills": {
             "yearsExperience": years_exp,
             "areas": areas,
@@ -407,9 +475,6 @@ def convert_mentor_to_json(mentor):
         "bio": mentor.get('bio', '').strip(),
         "menteeSection": mentee_section
     }
-    
-    # Add city - should always be present now
-    json_mentor['city'] = city
     
     return json_mentor
 
