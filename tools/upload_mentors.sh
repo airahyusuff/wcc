@@ -10,10 +10,14 @@ set -euo pipefail
 # Default API configuration
 API_BASE="${API_BASE:-http://localhost:8080/api}"
 API_KEY="${API_KEY:-test}"
+DRY_RUN="${DRY_RUN:-false}"
 
 # Get the script directory
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 JSON_FILE="${SCRIPT_DIR}/mentors_data.json"
+
+# Create a temporary file for curl responses
+TMP_RESPONSE=$(mktemp)
 
 # Check if jq is installed
 if ! command -v jq &> /dev/null; then
@@ -32,6 +36,9 @@ fi
 echo "🚀 Starting WCC backend mentors upload..."
 echo "📁 Reading mentors from: $JSON_FILE"
 echo "🌐 API Base URL: $API_BASE"
+if [ "$DRY_RUN" = "true" ]; then
+    echo "🔍 DRY RUN MODE: No actual API calls will be made"
+fi
 echo ""
 
 # Get total number of mentors
@@ -51,22 +58,28 @@ for i in $(seq 0 $((TOTAL_MENTORS - 1))); do
     
     echo "➡️  [$((i + 1))/$TOTAL_MENTORS] Uploading mentor: $MENTOR_NAME"
     
-    # Make the curl request
-    HTTP_CODE=$(curl -s -w "%{http_code}" -o /tmp/curl_response.txt \
-        -X POST "${API_BASE}/platform/v1/mentors" \
-        -H "accept: */*" \
-        -H "X-API-KEY: ${API_KEY}" \
-        -H "Content-Type: application/json" \
-        -d "$MENTOR_DATA")
-    
-    # Check response
-    if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
-        echo "✅  Successfully uploaded $MENTOR_NAME (HTTP $HTTP_CODE)"
+    if [ "$DRY_RUN" = "true" ]; then
+        echo "    [DRY RUN] Would upload: $MENTOR_NAME"
+        echo "    [DRY RUN] Data size: ${#MENTOR_DATA} bytes"
         SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
     else
-        echo "❌  Failed to upload $MENTOR_NAME (HTTP $HTTP_CODE)"
-        echo "    Response: $(cat /tmp/curl_response.txt)"
-        FAILED_COUNT=$((FAILED_COUNT + 1))
+        # Make the curl request
+        HTTP_CODE=$(curl -s -w "%{http_code}" -o "$TMP_RESPONSE" \
+            -X POST "${API_BASE}/platform/v1/mentors" \
+            -H "accept: */*" \
+            -H "X-API-KEY: ${API_KEY}" \
+            -H "Content-Type: application/json" \
+            -d "$MENTOR_DATA")
+        
+        # Check response
+        if [ "$HTTP_CODE" -ge 200 ] && [ "$HTTP_CODE" -lt 300 ]; then
+            echo "✅  Successfully uploaded $MENTOR_NAME (HTTP $HTTP_CODE)"
+            SUCCESS_COUNT=$((SUCCESS_COUNT + 1))
+        else
+            echo "❌  Failed to upload $MENTOR_NAME (HTTP $HTTP_CODE)"
+            echo "    Response: $(cat "$TMP_RESPONSE")"
+            FAILED_COUNT=$((FAILED_COUNT + 1))
+        fi
     fi
     
     echo ""
@@ -76,7 +89,7 @@ for i in $(seq 0 $((TOTAL_MENTORS - 1))); do
 done
 
 # Clean up
-rm -f /tmp/curl_response.txt
+rm -f "$TMP_RESPONSE"
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "📈 Upload Summary:"

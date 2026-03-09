@@ -55,6 +55,16 @@ You can override these with environment variables:
 API_BASE="https://api.example.com/api" API_KEY="your-api-key" ./upload_mentors.sh
 ```
 
+#### Dry Run Mode
+
+To test the script without making actual API calls, use dry-run mode:
+
+```bash
+DRY_RUN=true ./upload_mentors.sh
+```
+
+This will parse the JSON and display what would be uploaded without making HTTP requests.
+
 The script will:
 - Read all mentors from `mentors_data.json`
 - Loop through each mentor

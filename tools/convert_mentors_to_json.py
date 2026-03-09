@@ -190,6 +190,42 @@ def parse_spoken_languages(languages_str):
     return result if result else ["english"]
 
 
+def generate_email(name):
+    """Generate a sanitized email address from name."""
+    import unicodedata
+    
+    # Normalize unicode characters (e.g., Turkish characters)
+    normalized = unicodedata.normalize('NFKD', name)
+    # Remove diacritics
+    ascii_name = ''.join(c for c in normalized if not unicodedata.combining(c))
+    # Convert to lowercase and normalize whitespace
+    cleaned = ' '.join(ascii_name.lower().split())
+    # Replace spaces with dots
+    email_local = cleaned.replace(' ', '.')
+    
+    return f"{email_local}@womencodingcommunity.com"
+
+
+def extract_company_name(position_str):
+    """Extract company name from position string."""
+    if not position_str:
+        return ""
+    
+    # Try to parse "Role, Company" format
+    if ',' in position_str:
+        parts = position_str.split(',')
+        # Return the last part as it's usually the company
+        return parts[-1].strip()
+    
+    # If no comma, check if there's "at Company" pattern
+    if ' at ' in position_str.lower():
+        parts = position_str.split(' at ', 1)
+        return parts[-1].strip()
+    
+    # Otherwise return empty string (role-only, no company)
+    return ""
+
+
 def convert_mentor_to_json(mentor):
     """Convert a mentor from YAML format to JSON format."""
     
@@ -264,17 +300,20 @@ def convert_mentor_to_json(mentor):
         ]
     
     # Build the final JSON structure
+    # Note: email is a placeholder as actual emails are not in the YAML source
+    # Gender-related fields use defaults appropriate for Women Coding Community
+    # which specifically supports women in tech (adjust if source data provides these fields)
     json_mentor = {
         "fullName": mentor.get('name', ''),
         "position": mentor.get('position', ''),
-        "email": f"{mentor.get('name', 'unknown').lower().replace(' ', '.')}@womencodingcommunity.com",
+        "email": generate_email(mentor.get('name', 'unknown')),
         "slackDisplayName": f"@{mentor.get('name', '').split()[0]}",
         "country": country,
-        "companyName": mentor.get('position', '').split(',')[0] if ',' in mentor.get('position', '') else '',
+        "companyName": extract_company_name(mentor.get('position', '')),
         "memberTypes": ["MENTOR"],
         "images": [],
         "network": network,
-        "isWomen": True,
+        "isWomen": True,  # Default for WCC which supports women in tech
         "acceptMale": True,
         "acceptPromotion": True,
         "pronouns": "she/her",
