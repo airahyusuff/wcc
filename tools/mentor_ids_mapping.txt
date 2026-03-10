@@ -1,0 +1,33 @@
+# Mentor Name to ID Mapping
+# Format: Mentor Full Name|mentor_id
+# Generated from: /Users/airah/Downloads/wcc/tools/mentor_ids.log
+# Generated at: 2026-03-10 18:22:09
+
+Rajani Rao|3
+Eleonora Belova|2
+Stephanie Senoner|4
+Ken Pemberton|6
+Sakirat Kehinde Usman|5
+Nonna Shakhova|7
+Ying Liu|8
+Adriana Zencke Zimmermann|9
+Fernanda Martins|10
+Gabriel Oliveira|11
+Sergei Begishev|13
+Nadezhda Iaromirova|14
+Kateryna Ogar|15
+Wilson Adenuga|16
+Ramona Gawarwala|18
+Sonika Janagill|19
+Prerna Singhal|20
+Prabha Venkatesh|37
+Sebastian Castro|38
+Mudit Maheshwari|22
+Tuğçe Kızılçakar|23
+Anastasiia Roldugina|24
+Srinivasulu Paranduru|25
+Aria Wright|26
+Hersi Kopani|27
+Nataliia Zablotska|28
+Wil Thomason|29
+Oluwasetemi Ojo|30

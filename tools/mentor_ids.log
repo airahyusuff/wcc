@@ -1,0 +1,193 @@
+🚀 Starting WCC backend mentors upload & accept process...
+📁 Reading mentors from: /Users/airah/Downloads/wcc/tools/../mentor_json_outputs/longterm_or_both_mentors.json
+🌐 API Base URL: https://wcc-backend-prod.fly.dev/api
+
+📊 Found 35 mentors to upload
+
+➡️  [1/35] Processing mentor: Rajani Rao
+    ✅ Created mentor: Rajani Rao (HTTP 201, ID: 3)
+    ⏳ Accepting mentor ID: 3
+    ✅ Accepted mentor: Rajani Rao (HTTP 200)
+
+➡️  [2/35] Processing mentor: Eleonora Belova
+    ✅ Created mentor: Eleonora Belova (HTTP 201, ID: 2)
+    ⏳ Accepting mentor ID: 2
+    ✅ Accepted mentor: Eleonora Belova (HTTP 200)
+
+➡️  [3/35] Processing mentor: Stephanie Senoner
+    ✅ Created mentor: Stephanie Senoner (HTTP 201, ID: 4)
+    ⏳ Accepting mentor ID: 4
+    ✅ Accepted mentor: Stephanie Senoner (HTTP 200)
+
+➡️  [4/35] Processing mentor: Ken Pemberton
+    ✅ Created mentor: Ken Pemberton (HTTP 201, ID: 6)
+    ⏳ Accepting mentor ID: 6
+    ✅ Accepted mentor: Ken Pemberton (HTTP 200)
+
+➡️  [5/35] Processing mentor: Irina Kamalova
+    ❌ Failed to create Irina Kamalova (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical language with value: SCALA","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [6/35] Processing mentor: Ana Nogal
+    ❌ Failed to create Ana Nogal (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical language with value: SWIFT","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [7/35] Processing mentor: Bryan Boreham
+    ❌ Failed to create Bryan Boreham (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical area with value: SITE_RELIABILITY_ENGINEERING","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [8/35] Processing mentor: Sakirat Kehinde Usman
+    ✅ Created mentor: Sakirat Kehinde Usman (HTTP 201, ID: 5)
+    ⏳ Accepting mentor ID: 5
+    ✅ Accepted mentor: Sakirat Kehinde Usman (HTTP 200)
+
+➡️  [9/35] Processing mentor: Nonna Shakhova
+    ✅ Created mentor: Nonna Shakhova (HTTP 201, ID: 7)
+    ⏳ Accepting mentor ID: 7
+    ✅ Accepted mentor: Nonna Shakhova (HTTP 200)
+
+➡️  [10/35] Processing mentor: Ying Liu
+    ✅ Created mentor: Ying Liu (HTTP 201, ID: 8)
+    ⏳ Accepting mentor ID: 8
+    ✅ Accepted mentor: Ying Liu (HTTP 200)
+
+➡️  [11/35] Processing mentor: Adriana Zencke Zimmermann
+    ✅ Created mentor: Adriana Zencke Zimmermann (HTTP 201, ID: 9)
+    ⏳ Accepting mentor ID: 9
+    ✅ Accepted mentor: Adriana Zencke Zimmermann (HTTP 200)
+
+➡️  [12/35] Processing mentor: Fernanda Martins
+    ✅ Created mentor: Fernanda Martins (HTTP 201, ID: 10)
+    ⏳ Accepting mentor ID: 10
+    ✅ Accepted mentor: Fernanda Martins (HTTP 200)
+
+➡️  [13/35] Processing mentor: Gabriel Oliveira
+    ✅ Created mentor: Gabriel Oliveira (HTTP 201, ID: 11)
+    ⏳ Accepting mentor ID: 11
+    ✅ Accepted mentor: Gabriel Oliveira (HTTP 200)
+
+➡️  [14/35] Processing mentor: Samuela Smolorz
+    ❌ Failed to create Samuela Smolorz (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical area with value: SECURITY","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [15/35] Processing mentor: Sergei Begishev
+    ✅ Created mentor: Sergei Begishev (HTTP 201, ID: 13)
+    ⏳ Accepting mentor ID: 13
+    ✅ Accepted mentor: Sergei Begishev (HTTP 200)
+
+➡️  [16/35] Processing mentor: Nadezhda Iaromirova
+    ✅ Created mentor: Nadezhda Iaromirova (HTTP 201, ID: 14)
+    ⏳ Accepting mentor ID: 14
+    ✅ Accepted mentor: Nadezhda Iaromirova (HTTP 200)
+
+➡️  [17/35] Processing mentor: Kateryna Ogar
+    ✅ Created mentor: Kateryna Ogar (HTTP 201, ID: 15)
+    ⏳ Accepting mentor ID: 15
+    ✅ Accepted mentor: Kateryna Ogar (HTTP 200)
+
+➡️  [18/35] Processing mentor: Wilson Adenuga
+    ✅ Created mentor: Wilson Adenuga (HTTP 201, ID: 16)
+    ⏳ Accepting mentor ID: 16
+    ✅ Accepted mentor: Wilson Adenuga (HTTP 200)
+
+➡️  [19/35] Processing mentor: Ramona Gawarwala
+    ✅ Created mentor: Ramona Gawarwala (HTTP 201, ID: 18)
+    ⏳ Accepting mentor ID: 18
+    ✅ Accepted mentor: Ramona Gawarwala (HTTP 200)
+
+➡️  [20/35] Processing mentor: Sonika Janagill
+    ✅ Created mentor: Sonika Janagill (HTTP 201, ID: 19)
+    ⏳ Accepting mentor ID: 19
+    ✅ Accepted mentor: Sonika Janagill (HTTP 200)
+
+➡️  [21/35] Processing mentor: Prerna Singhal
+    ✅ Created mentor: Prerna Singhal (HTTP 201, ID: 20)
+    ⏳ Accepting mentor ID: 20
+    ✅ Accepted mentor: Prerna Singhal (HTTP 200)
+
+➡️  [22/35] Processing mentor: Prabha Venkatesh
+    ✅ Created mentor: Prabha Venkatesh (HTTP 201, ID: 37)
+    ⏳ Accepting mentor ID: 37
+    ✅ Accepted mentor: Prabha Venkatesh (HTTP 200)
+
+➡️  [23/35] Processing mentor: Sebastian Castro
+    ✅ Created mentor: Sebastian Castro (HTTP 201, ID: 38)
+    ⏳ Accepting mentor ID: 38
+    ✅ Accepted mentor: Sebastian Castro (HTTP 200)
+
+➡️  [24/35] Processing mentor: Dan Antonela
+    ❌ Failed to create Dan Antonela (HTTP 500)
+    Response: {"timestamp":"2026-03-10T18:08:50.641+00:00","status":500,"error":"Internal Server Error","path":"/api/platform/v1/mentors"}
+
+➡️  [25/35] Processing mentor: Mudit Maheshwari
+    ✅ Created mentor: Mudit Maheshwari (HTTP 201, ID: 22)
+    ⏳ Accepting mentor ID: 22
+    ✅ Accepted mentor: Mudit Maheshwari (HTTP 200)
+
+➡️  [26/35] Processing mentor: Tuğçe Kızılçakar
+    ✅ Created mentor: Tuğçe Kızılçakar (HTTP 201, ID: 23)
+    ⏳ Accepting mentor ID: 23
+    ✅ Accepted mentor: Tuğçe Kızılçakar (HTTP 200)
+
+➡️  [27/35] Processing mentor: Faith Sodipe
+    ❌ Failed to create Faith Sodipe (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical language with value: DART","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [28/35] Processing mentor: Anastasiia Roldugina
+    ✅ Created mentor: Anastasiia Roldugina (HTTP 201, ID: 24)
+    ⏳ Accepting mentor ID: 24
+    ✅ Accepted mentor: Anastasiia Roldugina (HTTP 200)
+
+➡️  [29/35] Processing mentor: Srinivasulu Paranduru
+    ✅ Created mentor: Srinivasulu Paranduru (HTTP 201, ID: 25)
+    ⏳ Accepting mentor ID: 25
+    ✅ Accepted mentor: Srinivasulu Paranduru (HTTP 200)
+
+➡️  [30/35] Processing mentor: Aria Wright
+    ✅ Created mentor: Aria Wright (HTTP 201, ID: 26)
+    ⏳ Accepting mentor ID: 26
+    ✅ Accepted mentor: Aria Wright (HTTP 200)
+
+➡️  [31/35] Processing mentor: Hersi Kopani
+    ✅ Created mentor: Hersi Kopani (HTTP 201, ID: 27)
+    ⏳ Accepting mentor ID: 27
+    ✅ Accepted mentor: Hersi Kopani (HTTP 200)
+
+➡️  [32/35] Processing mentor: Nataliia Zablotska
+    ✅ Created mentor: Nataliia Zablotska (HTTP 201, ID: 28)
+    ⏳ Accepting mentor ID: 28
+    ✅ Accepted mentor: Nataliia Zablotska (HTTP 200)
+
+➡️  [33/35] Processing mentor: Laura Cabantous-Taylor
+    ❌ Failed to create Laura Cabantous-Taylor (HTTP 400)
+    Response: {"status":400,"message":"JSON parse error: Invalid technical language with value: SCALA","details":"uri=/api/platform/v1/mentors"}
+
+➡️  [34/35] Processing mentor: Wil Thomason
+    ✅ Created mentor: Wil Thomason (HTTP 201, ID: 29)
+    ⏳ Accepting mentor ID: 29
+    ✅ Accepted mentor: Wil Thomason (HTTP 200)
+
+➡️  [35/35] Processing mentor: Oluwasetemi Ojo
+    ✅ Created mentor: Oluwasetemi Ojo (HTTP 201, ID: 30)
+    ⏳ Accepting mentor ID: 30
+    ✅ Accepted mentor: Oluwasetemi Ojo (HTTP 200)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📈 Upload & Accept Summary:
+   ✅ Successfully created: 28
+   ✅ Successfully accepted: 28
+   ⚠️  Accept failed: 0
+   ❌ Creation failed: 7
+   📊 Total mentors: 35
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  Failed to create the following mentors:
+   - Irina Kamalova
+   - Ana Nogal
+   - Bryan Boreham
+   - Samuela Smolorz
+   - Dan Antonela
+   - Faith Sodipe
+   - Laura Cabantous-Taylor
+
+🎉 Process completed! 28 mentors uploaded and accepted successfully!
