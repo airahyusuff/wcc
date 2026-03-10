@@ -1,39 +1,33 @@
-# Mentor Name to ID Mapping Template
+# Mentor Name to ID Mapping
 # Format: Mentor Full Name|mentor_id
-# Please fill in the mentor IDs after running upload_and_accept_mentors script
+# Generated from: /Users/airah/Downloads/wcc/tools/mentor_ids.log
+# Generated at: 2026-03-10 18:22:09
 
-Rajani Rao|FILL_IN_ID_HERE
-Eleonora Belova|FILL_IN_ID_HERE
-Stephanie Senoner|FILL_IN_ID_HERE
-Ken Pemberton|FILL_IN_ID_HERE
-Irina Kamalova|FILL_IN_ID_HERE
-Ana Nogal|FILL_IN_ID_HERE
-Bryan Boreham|FILL_IN_ID_HERE
-Sakirat Kehinde Usman|FILL_IN_ID_HERE
-Nonna Shakhova|FILL_IN_ID_HERE
-Ying Liu|FILL_IN_ID_HERE
-Adriana Zencke Zimmermann|FILL_IN_ID_HERE
-Fernanda Martins|FILL_IN_ID_HERE
-Gabriel Oliveira|FILL_IN_ID_HERE
-Samuela Smolorz|FILL_IN_ID_HERE
-Prabha Venkatesh|FILL_IN_ID_HERE
-Sergei Begishev|FILL_IN_ID_HERE
-Nadezhda Iaromirova|FILL_IN_ID_HERE
-Kateryna Ogar|FILL_IN_ID_HERE
-Wilson Adenuga|FILL_IN_ID_HERE
-Sebastian Castro|FILL_IN_ID_HERE
-Ramona Gawarwala|FILL_IN_ID_HERE
-Sonika Janagill|FILL_IN_ID_HERE
-Prerna Singhal|FILL_IN_ID_HERE
-Dan Antonela|FILL_IN_ID_HERE
-Mudit Maheshwari|FILL_IN_ID_HERE
-Tuğçe Kızılçakar|FILL_IN_ID_HERE
-Faith Sodipe|FILL_IN_ID_HERE
-Anastasiia Roldugina|FILL_IN_ID_HERE
-Srinivasulu Paranduru|FILL_IN_ID_HERE
-Aria Wright|FILL_IN_ID_HERE
-Hersi Kopani|FILL_IN_ID_HERE
-Nataliia Zablotska|FILL_IN_ID_HERE
-Laura Cabantous-Taylor|FILL_IN_ID_HERE
-Wil Thomason|FILL_IN_ID_HERE
-Oluwasetemi Ojo|FILL_IN_ID_HERE
+Rajani Rao|3
+Eleonora Belova|2
+Stephanie Senoner|4
+Ken Pemberton|6
+Sakirat Kehinde Usman|5
+Nonna Shakhova|7
+Ying Liu|8
+Adriana Zencke Zimmermann|9
+Fernanda Martins|10
+Gabriel Oliveira|11
+Sergei Begishev|13
+Nadezhda Iaromirova|14
+Kateryna Ogar|15
+Wilson Adenuga|16
+Ramona Gawarwala|18
+Sonika Janagill|19
+Prerna Singhal|20
+Prabha Venkatesh|37
+Sebastian Castro|38
+Mudit Maheshwari|22
+Tuğçe Kızılçakar|23
+Anastasiia Roldugina|24
+Srinivasulu Paranduru|25
+Aria Wright|26
+Hersi Kopani|27
+Nataliia Zablotska|28
+Wil Thomason|29
+Oluwasetemi Ojo|30

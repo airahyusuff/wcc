@@ -64,35 +64,39 @@ fi
 echo ""
 
 # Function to normalize a name to filename format
-normalize_name() {
+# Produce candidate basenames for a mentor name (preserve unicode, ascii fallback)
+normalize_name_candidates() {
     local name="$1"
-    # Convert to lowercase, replace spaces with underscores, remove special chars
-    echo "$name" | tr '[:upper:]' '[:lower:]' | tr ' ' '_' | sed 's/[^a-z0-9_-]/_/g'
+    local lower underscored ascii
+
+    lower=$(echo "$name" | tr '[:upper:]' '[:lower:]')
+    underscored=$(echo "$lower" | tr ' ' '_')
+    echo "$underscored"
+
+    ascii=$(echo "$underscored" | sed 's/[^a-z0-9_-]/_/g')
+    if [ "$ascii" != "$underscored" ]; then
+        echo "$ascii"
+    fi
 }
 
-# Function to find image file for a mentor
+# Try each candidate basename with common extensions
 find_image_file() {
     local mentor_name="$1"
-    local normalized=$(normalize_name "$mentor_name")
-    
-    # Try exact match first
-    if [ -f "${IMAGES_DIR}/${normalized}.jpeg" ]; then
-        echo "${IMAGES_DIR}/${normalized}.jpeg"
-        return 0
-    fi
-    
-    # Try .jpg extension
-    if [ -f "${IMAGES_DIR}/${normalized}.jpg" ]; then
-        echo "${IMAGES_DIR}/${normalized}.jpg"
-        return 0
-    fi
-    
-    # Try .png extension
-    if [ -f "${IMAGES_DIR}/${normalized}.png" ]; then
-        echo "${IMAGES_DIR}/${normalized}.png"
-        return 0
-    fi
-    
+    local cand
+    while IFS= read -r cand; do
+        if [ -f "${IMAGES_DIR}/${cand}.jpeg" ]; then
+            echo "${IMAGES_DIR}/${cand}.jpeg"
+            return 0
+        fi
+        if [ -f "${IMAGES_DIR}/${cand}.jpg" ]; then
+            echo "${IMAGES_DIR}/${cand}.jpg"
+            return 0
+        fi
+        if [ -f "${IMAGES_DIR}/${cand}.png" ]; then
+            echo "${IMAGES_DIR}/${cand}.png"
+            return 0
+        fi
+    done < <(normalize_name_candidates "$mentor_name")
     return 1
 }
 

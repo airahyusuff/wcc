@@ -1,0 +1,128 @@
+🚀 Starting WCC backend mentor pictures upload...
+📁 Images directory: /Users/airah/Downloads/wcc/tools/../assets/images/mentors
+📁 Mentors JSON: /Users/airah/Downloads/wcc/tools/../mentor_json_outputs/longterm_or_both_mentors.json
+🌐 API Base URL: https://wcc-backend-prod.fly.dev/api
+
+📋 Reading mentor IDs from: mentor_ids_mapping.txt
+
+➡️  Processing mentor: Rajani Rao (ID: 3)
+    📸 Found image: rajani_rao.jpeg
+    ✅ Successfully uploaded picture for Rajani Rao (HTTP 201)
+
+➡️  Processing mentor: Eleonora Belova (ID: 2)
+    📸 Found image: eleonora_belova.jpeg
+    ✅ Successfully uploaded picture for Eleonora Belova (HTTP 201)
+
+➡️  Processing mentor: Stephanie Senoner (ID: 4)
+    📸 Found image: stephanie_senoner.jpeg
+    ✅ Successfully uploaded picture for Stephanie Senoner (HTTP 201)
+
+➡️  Processing mentor: Ken Pemberton (ID: 6)
+    📸 Found image: ken_pemberton.jpeg
+    ✅ Successfully uploaded picture for Ken Pemberton (HTTP 201)
+
+➡️  Processing mentor: Sakirat Kehinde Usman (ID: 5)
+    📸 Found image: sakirat_kehinde_usman.jpeg
+    ✅ Successfully uploaded picture for Sakirat Kehinde Usman (HTTP 201)
+
+➡️  Processing mentor: Nonna Shakhova (ID: 7)
+    📸 Found image: nonna_shakhova.jpeg
+    ✅ Successfully uploaded picture for Nonna Shakhova (HTTP 201)
+
+➡️  Processing mentor: Ying Liu (ID: 8)
+    📸 Found image: ying_liu.jpeg
+    ✅ Successfully uploaded picture for Ying Liu (HTTP 201)
+
+➡️  Processing mentor: Adriana Zencke Zimmermann (ID: 9)
+    📸 Found image: adriana_zencke_zimmermann.jpeg
+    ✅ Successfully uploaded picture for Adriana Zencke Zimmermann (HTTP 201)
+
+➡️  Processing mentor: Fernanda Martins (ID: 10)
+    📸 Found image: fernanda_martins.jpeg
+    ✅ Successfully uploaded picture for Fernanda Martins (HTTP 201)
+
+➡️  Processing mentor: Gabriel Oliveira (ID: 11)
+    📸 Found image: gabriel_oliveira.jpeg
+    ✅ Successfully uploaded picture for Gabriel Oliveira (HTTP 201)
+
+➡️  Processing mentor: Sergei Begishev (ID: 13)
+    📸 Found image: sergei_begishev.jpeg
+    ✅ Successfully uploaded picture for Sergei Begishev (HTTP 201)
+
+➡️  Processing mentor: Nadezhda Iaromirova (ID: 14)
+    📸 Found image: nadezhda_iaromirova.jpeg
+    ✅ Successfully uploaded picture for Nadezhda Iaromirova (HTTP 201)
+
+➡️  Processing mentor: Kateryna Ogar (ID: 15)
+    📸 Found image: kateryna_ogar.jpeg
+    ✅ Successfully uploaded picture for Kateryna Ogar (HTTP 201)
+
+➡️  Processing mentor: Wilson Adenuga (ID: 16)
+    📸 Found image: wilson_adenuga.jpeg
+    ✅ Successfully uploaded picture for Wilson Adenuga (HTTP 201)
+
+➡️  Processing mentor: Ramona Gawarwala (ID: 18)
+    📸 Found image: ramona_gawarwala.jpeg
+    ✅ Successfully uploaded picture for Ramona Gawarwala (HTTP 201)
+
+➡️  Processing mentor: Sonika Janagill (ID: 19)
+    📸 Found image: sonika_janagill.jpeg
+    ✅ Successfully uploaded picture for Sonika Janagill (HTTP 201)
+
+➡️  Processing mentor: Prerna Singhal (ID: 20)
+    📸 Found image: prerna_singhal.jpeg
+    ✅ Successfully uploaded picture for Prerna Singhal (HTTP 201)
+
+➡️  Processing mentor: Prabha Venkatesh (ID: 37)
+    📸 Found image: prabha_venkatesh.jpeg
+    ✅ Successfully uploaded picture for Prabha Venkatesh (HTTP 201)
+
+➡️  Processing mentor: Sebastian Castro (ID: 38)
+    📸 Found image: sebastian_castro.jpeg
+    ✅ Successfully uploaded picture for Sebastian Castro (HTTP 201)
+
+➡️  Processing mentor: Mudit Maheshwari (ID: 22)
+    📸 Found image: mudit_maheshwari.jpeg
+    ✅ Successfully uploaded picture for Mudit Maheshwari (HTTP 201)
+
+➡️  Processing mentor: Tuğçe Kızılçakar (ID: 23)
+    📸 Found image: tuğçe_kızılçakar.jpeg
+    ✅ Successfully uploaded picture for Tuğçe Kızılçakar (HTTP 201)
+
+➡️  Processing mentor: Anastasiia Roldugina (ID: 24)
+    📸 Found image: anastasiia_roldugina.jpeg
+    ✅ Successfully uploaded picture for Anastasiia Roldugina (HTTP 201)
+
+➡️  Processing mentor: Srinivasulu Paranduru (ID: 25)
+    📸 Found image: srinivasulu_paranduru.jpeg
+    ✅ Successfully uploaded picture for Srinivasulu Paranduru (HTTP 201)
+
+➡️  Processing mentor: Aria Wright (ID: 26)
+    📸 Found image: aria_wright.jpeg
+    ✅ Successfully uploaded picture for Aria Wright (HTTP 201)
+
+➡️  Processing mentor: Hersi Kopani (ID: 27)
+    📸 Found image: hersi_kopani.jpeg
+    ✅ Successfully uploaded picture for Hersi Kopani (HTTP 201)
+
+➡️  Processing mentor: Nataliia Zablotska (ID: 28)
+    📸 Found image: nataliia_zablotska.jpeg
+    ✅ Successfully uploaded picture for Nataliia Zablotska (HTTP 201)
+
+➡️  Processing mentor: Wil Thomason (ID: 29)
+    📸 Found image: wil_thomason.jpeg
+    ✅ Successfully uploaded picture for Wil Thomason (HTTP 201)
+
+➡️  Processing mentor: Oluwasetemi Ojo (ID: 30)
+    📸 Found image: oluwasetemi_ojo.jpeg
+    ✅ Successfully uploaded picture for Oluwasetemi Ojo (HTTP 201)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📈 Upload Summary:
+   ✅ Successfully uploaded: 28
+   ❌ Failed: 0
+   ⚠️  Skipped (no image): 0
+   📊 Total processed: 28
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎉 Process completed! 28 pictures uploaded successfully!
