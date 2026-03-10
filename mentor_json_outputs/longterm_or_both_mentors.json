@@ -1134,94 +1134,6 @@
     }
   },
   {
-    "fullName": "Prabha Venkatesh",
-    "position": "Data scientist",
-    "email": "pvconnect10@gmail.com",
-    "slackDisplayName": "@Prabha",
-    "country": {
-      "countryCode": "GB",
-      "countryName": "United Kingdom"
-    },
-    "city": "Bristol",
-    "companyName": "Milbotix",
-    "memberTypes": [
-      "MENTOR"
-    ],
-    "images": [],
-    "network": [
-      {
-        "type": "linkedin",
-        "link": "https://www.linkedin.com/in/prabha-venkatesh-t"
-      }
-    ],
-    "isWomen": true,
-    "acceptMale": true,
-    "acceptPromotion": true,
-    "pronouns": "She/her",
-    "pronounCategory": "FEMININE",
-    "skills": {
-      "yearsExperience": 7,
-      "areas": [
-        {
-          "technicalArea": "DATA_SCIENCE",
-          "proficiencyLevel": "EXPERT"
-        },
-        {
-          "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "technicalArea": "PROD_MANAGEMENT",
-          "proficiencyLevel": "BEGINNER"
-        },
-        {
-          "technicalArea": "PROJ_MANAGEMENT",
-          "proficiencyLevel": "BEGINNER"
-        }
-      ],
-      "languages": [
-        {
-          "language": "PYTHON",
-          "proficiencyLevel": "EXPERT"
-        },
-        {
-          "language": "JAVASCRIPT",
-          "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "language": "C_SHARP",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "language": "C_SHARP",
-          "proficiencyLevel": "BEGINNER"
-        }
-      ],
-      "mentorshipFocus": [
-        "Grow from beginner to mid-level",
-        "Grow from mid-level to senior-level",
-        "Switch career to IT"
-      ]
-    },
-    "spokenLanguages": [
-      "english"
-    ],
-    "bio": "I am an AI Engineer with around 7 years of experience in software and a special focus on AI in the last few years. I have been leading AI research for a health care startup and have co-authored papers and a patent on the work carried out.",
-    "menteeSection": {
-      "idealMentee": "Individuals in early careers who are looking for help in coding and career guidance; but happy to help anyone I can",
-      "additional": "AI/ ML concepts, Resume review, technical interview",
-      "longTerm": {
-        "numMentee": 3,
-        "hours": 6
-      },
-      "adHoc": []
-    }
-  },
-  {
     "fullName": "Sergei Begishev",
     "position": "Chief Product Officer",
     "email": "begishev.ss@gmail.com",
@@ -1500,105 +1412,6 @@
     }
   },
   {
-    "fullName": "Sebastian Castro",
-    "position": "Robotics Software Engineer",
-    "email": "sebas.a.castro@gmail.com",
-    "slackDisplayName": "@Sebastian Castro",
-    "country": {
-      "countryCode": "US",
-      "countryName": "United States"
-    },
-    "city": "Boston, MA",
-    "companyName": "Robotics and AI Institute",
-    "memberTypes": [
-      "MENTOR"
-    ],
-    "images": [],
-    "network": [
-      {
-        "type": "linkedin",
-        "link": "https://www.linkedin.com/in/sebastian-a-castro"
-      },
-      {
-        "type": "website",
-        "link": "https://bsky.app/profile/roboticseabass.com"
-      }
-    ],
-    "isWomen": false,
-    "acceptMale": true,
-    "acceptPromotion": true,
-    "pronouns": "he/him",
-    "pronounCategory": "MASCULINE",
-    "skills": {
-      "yearsExperience": 15,
-      "areas": [
-        {
-          "technicalArea": "BACKEND",
-          "proficiencyLevel": "EXPERT"
-        },
-        {
-          "technicalArea": "FULLSTACK",
-          "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "technicalArea": "DEVOPS",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "technicalArea": "MACHINE_LEARNING",
-          "proficiencyLevel": "BEGINNER"
-        },
-        {
-          "technicalArea": "QA",
-          "proficiencyLevel": "BEGINNER"
-        }
-      ],
-      "languages": [
-        {
-          "language": "PYTHON",
-          "proficiencyLevel": "EXPERT"
-        },
-        {
-          "language": "PYTHON",
-          "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "language": "C_PLUS_PLUS",
-          "proficiencyLevel": "BEGINNER"
-        },
-        {
-          "language": "RUST",
-          "proficiencyLevel": "BEGINNER"
-        }
-      ],
-      "mentorshipFocus": [
-        "Grow from beginner to mid-level",
-        "Grow from mid-level to senior-level",
-        "Change specialisation within IT",
-        "Switch career to IT",
-        "Grow beyond senior level"
-      ]
-    },
-    "spokenLanguages": [
-      "english",
-      "spanish"
-    ],
-    "bio": "I began my career as a technical support/training/education marketing engineer focused on robotics and simulation. At the start of 2020, I made a full transition to robotics software engineering and have been keeping up with this challenging career while also tapping into my education interests through open-source software and mentorship projects. Learn more about me at https://roboticseabass.com/about/.",
-    "menteeSection": {
-      "idealMentee": "I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!",
-      "additional": "Robotics, Software Engineering, Machine Learning, Simulation, Education",
-      "longTerm": {
-        "numMentee": 2,
-        "hours": 4
-      },
-      "adHoc": []
-    }
-  },
-  {
     "fullName": "Ramona Gawarwala",
     "position": "Full Stack Software Engineer",
     "email": "ramona.mironescu@gmail.com",
@@ -1862,10 +1675,186 @@
     }
   },
   {
+    "fullName": "Prabha Venkatesh",
+    "position": "Data scientist",
+    "email": "pvconnect10@gmail.com",
+    "slackDisplayName": "@Prabha",
+    "country": {
+      "countryCode": "GB",
+      "countryName": "United Kingdom"
+    },
+    "city": "Bristol",
+    "companyName": "Milbotix",
+    "memberTypes": [
+      "MENTOR"
+    ],
+    "images": [],
+    "network": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/prabha-venkatesh-t"
+      }
+    ],
+    "isWomen": true,
+    "acceptMale": true,
+    "acceptPromotion": true,
+    "pronouns": "She/her",
+    "pronounCategory": "FEMININE",
+    "skills": {
+      "yearsExperience": 7,
+      "areas": [
+        {
+          "technicalArea": "DATA_SCIENCE",
+          "proficiencyLevel": "EXPERT"
+        },
+        {
+          "technicalArea": "MACHINE_LEARNING",
+          "proficiencyLevel": "ADVANCED"
+        },
+        {
+          "technicalArea": "DATA_ENGINEERING",
+          "proficiencyLevel": "INTERMEDIATE"
+        },
+        {
+          "technicalArea": "PROD_MANAGEMENT",
+          "proficiencyLevel": "BEGINNER"
+        },
+        {
+          "technicalArea": "PROJ_MANAGEMENT",
+          "proficiencyLevel": "BEGINNER"
+        }
+      ],
+      "languages": [
+        {
+          "language": "PYTHON",
+          "proficiencyLevel": "EXPERT"
+        },
+        {
+          "language": "JAVASCRIPT",
+          "proficiencyLevel": "ADVANCED"
+        },
+        {
+          "language": "C_SHARP",
+          "proficiencyLevel": "INTERMEDIATE"
+        }
+        
+      ],
+      "mentorshipFocus": [
+        "Grow from beginner to mid-level",
+        "Grow from mid-level to senior-level",
+        "Switch career to IT"
+      ]
+    },
+    "spokenLanguages": [
+      "english"
+    ],
+    "bio": "I am an AI Engineer with around 7 years of experience in software and a special focus on AI in the last few years. I have been leading AI research for a health care startup and have co-authored papers and a patent on the work carried out.",
+    "menteeSection": {
+      "idealMentee": "Individuals in early careers who are looking for help in coding and career guidance; but happy to help anyone I can",
+      "additional": "AI/ ML concepts, Resume review, technical interview",
+      "longTerm": {
+        "numMentee": 3,
+        "hours": 6
+      },
+      "adHoc": []
+    }
+  },
+  {
+    "fullName": "Sebastian Castro",
+    "position": "Robotics Software Engineer",
+    "email": "sebas.a.castro@gmail.com",
+    "slackDisplayName": "@Sebastian Castro",
+    "country": {
+      "countryCode": "US",
+      "countryName": "United States"
+    },
+    "city": "Boston, MA",
+    "companyName": "Robotics and AI Institute",
+    "memberTypes": [
+      "MENTOR"
+    ],
+    "images": [],
+    "network": [
+      {
+        "type": "linkedin",
+        "link": "https://www.linkedin.com/in/sebastian-a-castro"
+      },
+      {
+        "type": "website",
+        "link": "https://bsky.app/profile/roboticseabass.com"
+      }
+    ],
+    "isWomen": false,
+    "acceptMale": true,
+    "acceptPromotion": true,
+    "pronouns": "he/him",
+    "pronounCategory": "MASCULINE",
+    "skills": {
+      "yearsExperience": 15,
+      "areas": [
+        {
+          "technicalArea": "BACKEND",
+          "proficiencyLevel": "EXPERT"
+        },
+        {
+          "technicalArea": "FULLSTACK",
+          "proficiencyLevel": "ADVANCED"
+        },
+        {
+          "technicalArea": "DEVOPS",
+          "proficiencyLevel": "INTERMEDIATE"
+        },
+        {
+          "technicalArea": "MACHINE_LEARNING",
+          "proficiencyLevel": "BEGINNER"
+        },
+        {
+          "technicalArea": "QA",
+          "proficiencyLevel": "BEGINNER"
+        }
+      ],
+      "languages": [
+        {
+          "language": "PYTHON",
+          "proficiencyLevel": "EXPERT"
+        },
+        {
+          "language": "C_PLUS_PLUS",
+          "proficiencyLevel": "BEGINNER"
+        },
+        {
+          "language": "RUST",
+          "proficiencyLevel": "BEGINNER"
+        }
+      ],
+      "mentorshipFocus": [
+        "Grow from beginner to mid-level",
+        "Grow from mid-level to senior-level",
+        "Change specialisation within IT",
+        "Switch career to IT",
+        "Grow beyond senior level"
+      ]
+    },
+    "spokenLanguages": [
+      "english",
+      "spanish"
+    ],
+    "bio": "I began my career as a technical support/training/education marketing engineer focused on robotics and simulation. At the start of 2020, I made a full transition to robotics software engineering and have been keeping up with this challenging career while also tapping into my education interests through open-source software and mentorship projects. Learn more about me at https://roboticseabass.com/about/.",
+    "menteeSection": {
+      "idealMentee": "I am looking to help people interested in the robotics field, specially focused on open-source software and/or educational content development. My specialties in robotics include high-level behavior, task and motion planning, and manipulation, but I am willing to branch out and learn with you!",
+      "additional": "Robotics, Software Engineering, Machine Learning, Simulation, Education",
+      "longTerm": {
+        "numMentee": 2,
+        "hours": 4
+      },
+      "adHoc": []
+    }
+  },
+  {
     "fullName": "Dan Antonela",
     "position": "Data Architect",
     "email": "dan.antonela@gmail.com",
-    "slackDisplayName": "@I have joined Slack community",
+    "slackDisplayName": "@Antonela Dan",
     "country": {
       "countryCode": "RO",
       "countryName": "Romania"
@@ -1895,20 +1884,8 @@
           "proficiencyLevel": "EXPERT"
         },
         {
-          "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "technicalArea": "DATA_ENGINEERING",
-          "proficiencyLevel": "BEGINNER"
-        },
-        {
           "technicalArea": "DATA_SCIENCE",
-          "proficiencyLevel": "BEGINNER"
+          "proficiencyLevel": "ADVANCED"
         }
       ],
       "languages": [
@@ -1919,18 +1896,6 @@
         {
           "language": "PYTHON",
           "proficiencyLevel": "ADVANCED"
-        },
-        {
-          "language": "PYTHON",
-          "proficiencyLevel": "INTERMEDIATE"
-        },
-        {
-          "language": "JAVASCRIPT",
-          "proficiencyLevel": "BEGINNER"
-        },
-        {
-          "language": "PYTHON",
-          "proficiencyLevel": "BEGINNER"
         }
       ],
       "mentorshipFocus": [
