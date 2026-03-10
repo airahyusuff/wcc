@@ -13,32 +13,36 @@ This script uploads profile pictures for mentors from the `assets/images/mentors
 
 Since the API requires mentor IDs, you need to create a mapping file that links mentor names to their IDs.
 
-### Method 1: Generate Template and Fill Manually
+### Method 1: Auto-generate from Log (Recommended)
+
+First, run the upload_and_accept_mentors script and save the output to a log file:
 
 ```bash
-python3 tools/generate_mentor_ids_mapping.py --template
+export API_KEY='your-api-key-here'
+./tools/upload_and_accept_mentors.sh | tee tools/mentor_ids.log
 ```
 
-This creates `tools/mentor_ids_mapping.txt` with mentor names. After running `upload_and_accept_mentors` script, fill in the IDs:
+Then generate the mapping file from the log:
+
+```bash
+./tools/generate_mentor_ids_mapping.sh
+```
+
+This automatically extracts mentor IDs from the log and creates `tools/mentor_ids_mapping.txt`.
+
+### Method 2: Generate Template and Fill Manually
+
+```bash
+./tools/generate_mentor_ids_mapping.sh --template
+```
+
+This creates `tools/mentor_ids_mapping.txt` with mentor names and placeholder IDs. After running `upload_and_accept_mentors` script, manually fill in the IDs:
 
 ```
 Rajani Rao|abc123-def456-789
 Eleonora Belova|ghi789-jkl012-345
 ...
 ```
-
-### Method 2: Fetch from API (if mentors already exist)
-
-```bash
-export API_KEY='your-api-key-here'
-python3 tools/generate_mentor_ids_mapping.py
-```
-
-This attempts to fetch mentor IDs from the API automatically.
-
-### Method 3: Enhanced upload_and_accept_mentors Script
-
-Modify the `upload_and_accept_mentors` script to save IDs to a file as it creates mentors.
 
 ## Usage
 
@@ -126,23 +130,20 @@ Supported extensions: `.jpeg`, `.jpg`, `.png`
 ## Complete Workflow
 
 1. **Create mentors** using `upload_and_accept_mentors` script
-2. **Capture mentor IDs** from the output
-3. **Create mapping file** with mentor names and IDs
-4. **Upload pictures** using this script
+2. **Generate mapping file** from the log output
+3. **Upload pictures** using this script
 
 Example complete workflow:
 
 ```bash
-# Step 1: Upload and accept mentors
+# Step 1: Upload and accept mentors (save log)
 export API_KEY='your-key-here'
-./tools/upload_and_accept_mentors.sh | tee mentor_upload.log
+./tools/upload_and_accept_mentors.sh | tee tools/mentor_ids.log
 
-# Step 2: Generate template mapping file
-python3 tools/generate_mentor_ids_mapping.py --template
+# Step 2: Generate mapping file from log
+./tools/generate_mentor_ids_mapping.sh
 
-# Step 3: Fill in the IDs from mentor_upload.log into mentor_ids_mapping.txt
-
-# Step 4: Upload profile pictures
+# Step 3: Upload profile pictures
 export MENTOR_IDS_FILE='tools/mentor_ids_mapping.txt'
 ./tools/upload_mentor_pictures.sh
 ```
